@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-int main ()
+/*
+ * main function uses puts to print an element
+ */
+int main(void)
 {
-puts ("\"Programming is like building a multilingual puzzle");             
-             
-return (0);   
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
