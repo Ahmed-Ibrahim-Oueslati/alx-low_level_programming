@@ -18,8 +18,11 @@ int i=48, k=48 ;
 	{
 	putchar(i);
 	putchar(k);
+	if (i!=8)
+	{
 	putchar(44);
 	putchar(32);
+	}
 	
 	}
 	k++;
