@@ -16,7 +16,7 @@ int i=97,k=65 ;
         putchar(i);
         i++;
         }
-	  while (k<90)
+	  while (k<91)
         {
         putchar(k);
         k++;
