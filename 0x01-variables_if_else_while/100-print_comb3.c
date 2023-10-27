@@ -10,11 +10,11 @@
 int main(void)
 {
 int i=48, k=48 ;              
-        while (i<58 )
+        while (i<57 )
 	{
 	while(k<58)
 	{
-	if (k!=i)
+	if (k!=i && k>i)
 	{
 	putchar(i);
 	putchar(k);
@@ -24,8 +24,8 @@ int i=48, k=48 ;
 	}
 	k++;
 	}
-	k=k-9;
-	i++;
+	k=k-10;
+	i=i+1;
 	
 	}
 	putchar(10);	
