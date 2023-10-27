@@ -18,7 +18,7 @@ int i=48, k=48 ;
 	{
 	putchar(i);
 	putchar(k);
-	if (i!=8)
+	if (i!=56)
 	{
 	putchar(44);
 	putchar(32);
