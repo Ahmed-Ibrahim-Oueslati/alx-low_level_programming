@@ -15,6 +15,6 @@ int i=97 ;
 	putchar(i);
 	i++;
 	}
-	putchr("\n");	
+	putchar("\n");	
 return (0);   
 }
