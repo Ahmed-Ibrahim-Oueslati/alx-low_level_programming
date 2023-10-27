@@ -13,8 +13,8 @@ int i=48 ;
         while (i<58)
 	{
 	putchar(i);
-	putchar(44); // Prints ','
-	putchar(32); // Prints a space
+	putchar(44);
+	putchar(32); 
 	i++;
 	}
 	putchar(10);	
