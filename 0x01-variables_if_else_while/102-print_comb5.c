@@ -9,49 +9,32 @@
  */
 int main(void)
 {
-int i=48, k=48,j=48, p=48;              
-        while (i<55 )
+int i=48, k=48 , j=48 ,p=48;              
+        while (i<58 && j<58 )
 	{
-	while(k<56)
+	while(k<58 && p<58)
 	{
-	 if (k!=i && k>i)
-	 {
-	while (j<57)
-	{
-	if (j!=k && j>k)
-	{
-	while (p<58)
-	{
-	if (p!=j && p >j)
 	
-	{
+	
 	putchar(i);
 	putchar(k);
 	putchar(32);
 	putchar(j);
 	putchar(p);
-	if (i!=55)
-	{
+	
 	putchar(44);
 	putchar(32);
-	}
-	}
+	
+	
+	
+	k++;
 	p++;
 	}
-	}
-	j++;
-	p =p-10;
-	}
-	 }
-	k++;
-	j = j -10;
-	}
+	k=k-10;
+	p=p-10;
 	i=i+1;
-	k = k-10;
-	
-	
+	j++;
 	}
 	putchar(10);	
 return (0);   
 }
-
