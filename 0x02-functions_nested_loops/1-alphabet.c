@@ -9,5 +9,5 @@ int i=97 ;
         i++;
         }
         _putchar(10);
-return (0);
+return (void);
 }
