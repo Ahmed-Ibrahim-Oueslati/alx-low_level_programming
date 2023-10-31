@@ -7,7 +7,8 @@
  *    * Return: a pointer to the array or NULL if size = 0 or if it fails
  *     * @size: size of array
  *      * @c: char to fill array with
- *       */
+ *       *
+ */
 char *create_array(unsigned int size, char c)
 {
 char *p;
