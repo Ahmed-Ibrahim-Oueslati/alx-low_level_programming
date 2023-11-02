@@ -1,24 +1,20 @@
-#include <stdlib.h>
-#include <stdio.h>
-
 int main(void)
 {
-    int i = 0, j = 0;
+    int i, j;
 
+    i = 0;
     while (i < 100)
     {
-        j = i + 1; // Start j at i + 1 to avoid duplicates
+        j = i + 1;
         while (j < 100)
         {
-            putchar((i / 10) + '0'); // Print first digit of i
-            putchar((i % 10) + '0'); // Print second digit of i
+            putchar((i / 10) + '0');
+            putchar((i % 10) + '0');
+            putchar(' ');
+            putchar((j / 10) + '0');
+            putchar((j % 10) + '0');
 
-            putchar(' '); // Print space
-
-            putchar((j / 10) + '0'); // Print first digit of j
-            putchar((j % 10) + '0'); // Print second digit of j
-
-            if (i < 98 || j < 99) // Avoid trailing comma
+            if (i < 98 || j < 99)
             {
                 putchar(',');
                 putchar(' ');
@@ -31,6 +27,6 @@ int main(void)
 
     putchar('\n');
 
-    return (0);
+    return 0;
 }
 
