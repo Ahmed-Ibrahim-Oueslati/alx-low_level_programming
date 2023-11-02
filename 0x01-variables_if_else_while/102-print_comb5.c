@@ -1,34 +1,44 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 int main(void)
 {
-    int i, j;
-
-    i = 0;
-    while (i < 100)
+    int i=48, k=48 , j=48 ,p=48;
+    
+    while (i < 58)
     {
-        j = i + 1;
-        while (j < 100)
+        putchar(i);
+        putchar(k);
+        putchar(32);
+        putchar(j);
+        putchar(p);
+
+        putchar(44);
+        putchar(32);
+
+        p++;
+        
+        if (p == 58)
         {
-            putchar((i / 10) + '0');
-            putchar((i % 10) + '0');
-            putchar(' ');
-            putchar((j / 10) + '0');
-            putchar((j % 10) + '0');
-
-            if (i < 98 || j < 99)
-            {
-                putchar(',');
-                putchar(' ');
-            }
-
+            p = p - 10;
             j++;
         }
-        i++;
+
+        if (j == 58)
+        {
+            j = j - 10;
+            k++;
+        }
+
+        if (k == 58)
+        {
+            k = k - 10;
+            i = i + 1;
+        }
     }
+    
+    putchar(10);
 
-    putchar('\n');
-
-    return 0;
+    return (0);
 }
 
