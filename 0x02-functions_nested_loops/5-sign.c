@@ -12,7 +12,7 @@ int print_sign(int n)
 	     {
 		     return(1);
 	     }
-	     if (n=0)
+	     if (n==0)
 	     {
 		     return(0);
 	     }
