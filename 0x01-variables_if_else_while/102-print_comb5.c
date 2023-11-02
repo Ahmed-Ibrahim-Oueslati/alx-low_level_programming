@@ -1,45 +1,36 @@
 #include <stdlib.h>
 #include <stdio.h>
-/** 
- *main - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *
- * Return: Always 0 (success).
- */
+
 int main(void)
 {
-int i=48, k=48 , j=48 ,p=48;
-        while (i<58)
-        {
+    int i = 0, j = 0;
 
-        putchar(i);
-        putchar(k);
-        putchar(32);
-        putchar(j);
-        putchar(p);
-
-        putchar(44);
-        putchar(32);
-
-        p++;
-        if (p==58)
+    while (i < 100)
+    {
+        j = i + 1; // Start j at i + 1 to avoid duplicates
+        while (j < 100)
         {
-        p=p-10;
+            putchar((i / 10) + '0'); // Print first digit of i
+            putchar((i % 10) + '0'); // Print second digit of i
 
-        j++;
+            putchar(' '); // Print space
+
+            putchar((j / 10) + '0'); // Print first digit of j
+            putchar((j % 10) + '0'); // Print second digit of j
+
+            if (i < 98 || j < 99) // Avoid trailing comma
+            {
+                putchar(',');
+                putchar(' ');
+            }
+
+            j++;
         }
-        if (j==58)
-        {
-        j =j-10;
-        k++;
-        }
-        if (k==58)
-        {
-        k=k-10;
-        i=i+1;
-        }
-        }
-        putchar(10);
-return (0);
+        i++;
+    }
+
+    putchar('\n');
+
+    return (0);
 }
+
