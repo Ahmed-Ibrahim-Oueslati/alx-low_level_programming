@@ -15,7 +15,7 @@ int i=48, k=48 , j=48 ,p=48;
         {
 
         _putchar(i);
-        _putchar((k);
+        _putchar(k);
         _putchar(32);
         _putchar(j);
         _putchar(p);
