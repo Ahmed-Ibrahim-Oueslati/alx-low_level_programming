@@ -36,5 +36,5 @@ int print_last_digit(int n)
 int p = j%10;
 	
 	_putchar(p +'0');
-return(0);
+return(p);
 }
