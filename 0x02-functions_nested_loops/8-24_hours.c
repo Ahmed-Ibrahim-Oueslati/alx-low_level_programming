@@ -16,12 +16,12 @@ int i=48, k=48 , j=48 ,p=48;
 
         _putchar(i);
         _putchar(k);
-       
+       _putchar(':');
         _putchar(j);
         _putchar(p);
 
         
-        _putchar(32);
+        _putchar('\n');
 
         p++;
         if (p==58)
