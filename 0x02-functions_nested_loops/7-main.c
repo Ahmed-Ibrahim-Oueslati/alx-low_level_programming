@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x02$ cat 7-main.c
 #include "main.h"
 
 /**
@@ -8,12 +7,7 @@ julien@ubuntu:~/0x02$ cat 7-main.c
  */
 int main(void)
 {
-    int r;
-
-    print_last_digit(98);
-    print_last_digit(0);
-    r = print_last_digit(-1024);
-    _putchar('0' + r);
+     print_last_digit(98);
     _putchar('\n');
     return (0);
 }
