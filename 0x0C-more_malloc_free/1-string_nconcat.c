@@ -1,85 +1,46 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "main.h"
 
 /**
- * string_nconcat - concatenates two strings
- * s1 followed by n bytes of s2
- * Return: pointer to newly allocated spcae
- * @s1: first string
- * @s2: string where n bytes will be taken from
- * @n: number of bytes to copy from s2
+ * string_nconcat - a function that concatenates two strings.
+ *
+ * @s1: first char
+ * @s2: secound char
+ * @n: unsigned int
+ *
+ * Return: If the function fails, it should return NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int size1, size2, i, j, size;
-	char *cat;
+	unsigned int x, y, z;
+	char *s;
 
-	size1 = strlen(s1);
-	size2 = strlen(s2);
-	size = size1 + 1;
-	if (s1 == NULL && s2 == NULL)
+	if (s1 == NULL)
 	{
-		cat = malloc(sizeof(char));
-		if (cat == NULL)
-		{
-			return (NULL);
-		}
-		cat[0] = '\0';
-		return (cat);
-	}
-	else if (s1 == NULL)
-	{
-		cat = malloc((n + 1) * sizeof(char));
-		if (cat == NULL)
-		{
-			return (NULL);
-		}
-		for (i = 0; i < n; i++)
-		{
-			cat[i] = s2[i];
-		}
-		cat[i] = '\0';
-		return (cat);
-	}
-	else if (s2 == NULL)
-	{
-		cat = malloc(sizeof(s1));
-		if (cat == NULL)
-		{
-			return (NULL);
-		}
-		strcpy(cat, s1);
-		return (cat);
-	}
-	if (n >= size2)
-	{
-		cat = malloc(size1 + size2 + 1);
-		if (cat == NULL)
-		{
-			return (NULL);
-		}
-		strcpy(cat, s1);
-		for (i = size, j = 0; j <= size2; i++, j++)
-		{
-			cat[size1 + j] = s2[j];
-		}
-		cat[size1 + j] = '\0';
-		return (cat);
+		x = 0;
 	}
 	else
 	{
-		cat = malloc(size1 + n + 1);
-		if (cat == NULL)
-		{
-			return (NULL);
-		}
-		strcpy(cat, s1);
-		for (i = size, j = 0; j < n; i++, j++)
-		{
-			cat[size1 + j] = s2[j];
-		}
-		cat[size1 + j] = '\0';
+		for (x = 0; s1[x]; ++x)
+		;
 	}
-	return (cat);
+	if (s2 == NULL)
+	{
+		y = 0;
+	}
+	else
+	{
+		for (y = 0; s2[y]; ++y)
+		;
+	}
+	if (y > n)
+		y = n;
+	s = malloc(sizeof(char) * (x + y + 1));
+	if (s == NULL)
+		return (NULL);
+	for (z = 0; z < x; z++)
+		s[z] = s1[z];
+	for (z = 0; z < y; z++)
+		s[z + x] = s2[z];
+	s[x + y] = '\0';
+	return (s);
 }
