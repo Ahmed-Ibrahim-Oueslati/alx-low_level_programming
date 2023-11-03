@@ -42,6 +42,5 @@ int i=48, k=48 , j=48 ,p=48;
         }
         }
         putchar(10);
-return (0);
 }
              
