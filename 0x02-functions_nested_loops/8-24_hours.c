@@ -14,11 +14,11 @@ int i=48, k=48 , j=48 ,p=48;
         while (i<=50)
         {
 
-        _putchar(p);
-        _putchar(j);
-       
-        _putchar(k);
         _putchar(i);
+        _putchar(k);
+       
+        _putchar(j);
+        _putchar(p);
 
         
         _putchar(32);
