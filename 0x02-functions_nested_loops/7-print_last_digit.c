@@ -30,11 +30,11 @@ return (0);
 int print_last_digit(int n)
 
 {
-	int j = _abs(n);
+	int p = n%10;
+	int j = _abs(p);
 
 
-int p = j%10;
 	
-	_putchar(p +'0');
-return(p);
+	_putchar(j +'0');
+return(j);
 }
