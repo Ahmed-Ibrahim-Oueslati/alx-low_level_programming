@@ -14,14 +14,14 @@ int i=48, k=48 , j=48 ,p=48;
         while (i<=50)
         {
 
-        _putchar(i);
-        _putchar(k);
-        _putchar(32);
-        _putchar(j);
         _putchar(p);
+        _putchar(j);
+       
+        _putchar(k);
+        _putchar(i);
 
-        putchar(44);
-        putchar(32);
+        
+        _putchar(32);
 
         p++;
         if (p==58)
@@ -30,7 +30,7 @@ int i=48, k=48 , j=48 ,p=48;
 
         j++;
         }
-        if (j==54)
+        if (j>54)
         {
         j =j-5;
         k++;
