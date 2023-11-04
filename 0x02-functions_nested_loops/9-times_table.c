@@ -10,27 +10,31 @@
  */
 void times_table(void)
 {
-	int p  ,i , j  ;
+	int p  ,i , j , k=0;
 	for ( i =0 ; i<=9;i++)
 	{
 		 for ( j =0 ; j<=9;j++)
 		 {
 			  p = j * i;
-			
+			  k++;
 			if ((p/10)!=0)
 			{	
 			  _putchar('0'+ (p/10));
 			}
 	     		_putchar('0'+ (p%10));
+			if (k<=9)
+			{
 		 		 _putchar(44);
+			}
                                  _putchar(32);
-				  if ((p/10)==0)
-                        {
+				  if (p<10)
+                       {
                           _putchar(32);
                         }
 				 
 		 }
 				_putchar('\n');
+				k = k -10;
 
 		 
 	}
