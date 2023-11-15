@@ -8,9 +8,18 @@
  *
  * Return: Always 0 (success).
  */
-char  *main()
+char *generatePassword(void)
 {
-     char  a[]="hhh";     
-             
-return (a);   
+    static char a[] = "hhh"; // Use static to keep the string in memory
+
+    return a;
+}
+
+int main(void)
+{
+    char *password = generatePassword();
+
+    printf("Generated Password: %s\n", password);
+
+    return 0; // Indicates successful execution
 }
