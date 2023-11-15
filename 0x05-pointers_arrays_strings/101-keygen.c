@@ -10,9 +10,9 @@
  */
 char *generatePassword(void)
 {
-    static char a[] = "hhh"; // Use static to keep the string in memory
+    static char a[] = "hhh";
 
-    return a;
+    return (a);
 }
 
 int main(void)
@@ -21,5 +21,5 @@ int main(void)
 
     printf("Generated Password: %s\n", password);
 
-    return 0; // Indicates successful execution
+    return (0); 
 }
