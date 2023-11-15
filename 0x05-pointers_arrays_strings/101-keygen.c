@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (success).
  */
-int main(void)
+char  main(void)
 {
      char  a[5]="hhh";     
              
