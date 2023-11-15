@@ -8,9 +8,9 @@
  *
  * Return: Always 0 (success).
  */
-char  main()
+char  *main()
 {
-     char  a="hhh";     
+     char  a[]="hhh";     
              
-return (a);   
+return a;   
 }
