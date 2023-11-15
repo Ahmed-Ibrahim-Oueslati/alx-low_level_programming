@@ -8,9 +8,9 @@
  *
  * Return: Always 0 (success).
  */
-char  main(void)
+char  main()
 {
-     char  a[5]="hhh";     
+     char  a="hhh";     
              
 return (a);   
 }
