@@ -12,5 +12,5 @@ char  *main()
 {
      char  a[]="hhh";     
              
-return a;   
+return (a);   
 }
