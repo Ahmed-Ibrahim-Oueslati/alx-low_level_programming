@@ -1,1 +1,0 @@
-Recursion is a powerful technique that can be used to solve problems that can be broken down into smaller, similar subproblems. However, it's important to ensure that a base case is provided, and that the function is guaranteed to eventually reach it. Otherwise, you may end up in an infinite loop.
