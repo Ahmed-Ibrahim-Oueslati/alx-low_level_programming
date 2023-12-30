@@ -14,7 +14,7 @@ int main(void)
 	char v; 
 	long int li ; 
 	long long int lli;
-printf("Size of a char: %c byte(s)\n",v);
+printf("Size of a char: %lu byte(s)\n",sizeof(v));
 printf("Size of an int: %d  byte(s)\n",i);
 printf("Size of a long int: %ld  byte(s)\n",li);
 printf("Size of a long long int: %lld  byte(s)\n",lli);
