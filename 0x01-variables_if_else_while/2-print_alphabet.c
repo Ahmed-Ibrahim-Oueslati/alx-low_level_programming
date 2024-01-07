@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-int n=97;
+int n = 97;
 while (n < 123)
 {
 putchar(n);
@@ -17,7 +17,7 @@ if (n == 122)
 {
 putchar('\n');
 }
-n = n+1;
+n = n + 1;
 }
 return (0);
 }
