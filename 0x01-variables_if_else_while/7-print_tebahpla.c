@@ -13,7 +13,7 @@ int n = 122;
 while (n > 98)
 {
 putchar(n);
-if (n == 97)
+if (n == 96)
 {
 putchar('\n');
 }
