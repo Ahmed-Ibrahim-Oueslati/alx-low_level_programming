@@ -10,12 +10,12 @@
 int main(void)
 {
 int n = 48;
+int j = 97;
 while (n < 58)
 {
 putchar(n);
 n = n + 1;
 }
-int j = 97;
 while (j < 103)
 {
 putchar(j);
