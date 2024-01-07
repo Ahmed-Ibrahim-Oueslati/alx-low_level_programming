@@ -15,16 +15,19 @@ while (n < 57)
 {
 while (j < 58)
 { 
-if ( j > n && j != n)
+if (j > n && j != n)
 {
 putchar(n);
 putchar(j);
+if (n < 56)
+{
 putchar(44);
 putchar(32);
- }
+}
+}
 j++;
 }
-j = j-9;
+j = j - 9;
 n = n + 1;
 }
 putchar('\n');
