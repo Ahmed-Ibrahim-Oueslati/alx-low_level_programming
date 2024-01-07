@@ -15,7 +15,7 @@ int k = 48;
 while (n < 56)
 {
 while (j < 57)
-{ 
+{
 while (k < 58)
 {
 if (j > n && j != n)
