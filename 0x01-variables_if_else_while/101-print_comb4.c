@@ -20,13 +20,16 @@ while (k < 58)
 {
 if (j > n && j != n)
 {
+if (k > j && k != j)
+{
 putchar(n);
 putchar(j);
 putchar(k);
-if (k < 57)
+if (n < 55)
 {
 putchar(44);
 putchar(32);
+}
 }
 }
 k++;
