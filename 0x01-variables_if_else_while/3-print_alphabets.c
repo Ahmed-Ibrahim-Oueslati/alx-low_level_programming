@@ -20,8 +20,7 @@ while (j < 91)
 {
 putchar(j);
 j = j + 1;
-if (j == 90)
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
