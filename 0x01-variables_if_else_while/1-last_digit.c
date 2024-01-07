@@ -10,7 +10,6 @@
  */
 int main(void)
 {
-int h;
 int n;
 int g;
 srand(time(0));
