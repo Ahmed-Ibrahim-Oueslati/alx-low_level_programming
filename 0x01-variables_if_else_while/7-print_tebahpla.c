@@ -10,10 +10,10 @@
 int main(void)
 {
 int n = 122;
-while (n > 98)
+while (n > 96)
 {
 putchar(n);
-if (n == 96)
+if (n == 97)
 {
 putchar('\n');
 }
