@@ -8,8 +8,7 @@
  *
  * Return: Always 0 (success).
  */
-int main(void)
-{
+void print_alphabet(void);{
 int n = 97;
 while (n < 123)
 {
