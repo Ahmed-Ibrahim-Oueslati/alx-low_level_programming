@@ -13,9 +13,9 @@ int main(void)
 int n = 97;
 while (n < 122)
 {
-putchar(n);
+_putchar(n);
 if (n == 122)
-putchar('\n');
+_putchar('\n');
 n++;
 }
 return (0);
