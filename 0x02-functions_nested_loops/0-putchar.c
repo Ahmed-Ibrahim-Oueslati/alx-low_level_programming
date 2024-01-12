@@ -4,13 +4,13 @@
 /**
  * main - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: Prints "_putchar"  to the console.
  *
  * Return: Always 0 (success).
  */
 int main(void)
 {
-             
+printf ("_putchar\n");             
              
 return (0);   
 }
