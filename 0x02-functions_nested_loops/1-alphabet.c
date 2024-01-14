@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * print_alphabet - Entry point of the program.
  *
  * Description: Prints the alphabet in lowercase to the console.
  *
