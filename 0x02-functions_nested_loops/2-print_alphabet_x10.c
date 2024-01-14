@@ -10,14 +10,21 @@
  */
 void print_alphabet_x10(void)
 {
-int n = 1;
-while (n < 11)
+int j = 1 ;
+while ( j < 11)
 {
-print_alphabet();
-if (n < 10)
+int n = 97;
+while (n < 123)
+{
+putchar(n);
+if (n == 122)
 {
 putchar('\n');
 }
 n++;
 }
+j++;
 }
+
+}
+
