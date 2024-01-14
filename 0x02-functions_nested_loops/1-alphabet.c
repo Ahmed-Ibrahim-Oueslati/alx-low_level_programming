@@ -13,10 +13,10 @@ void print_alphabet(void)
 int n = 97;
 while (n < 123)
 {
-_putchar(n);
+putchar(n);
 if (n == 122)
 {
-_putchar('\n');
+putchar('\n');
 }
 n++;
 }
