@@ -10,7 +10,7 @@
  */
 void print_alphabet_x10(void)
 {
-n = 1
+int n = 1;
 while (n < 11)
 {
 print_alphabet();
