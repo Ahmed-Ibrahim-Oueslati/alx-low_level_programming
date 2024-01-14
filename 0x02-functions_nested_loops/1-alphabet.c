@@ -8,14 +8,15 @@
  *
  * Return: Always 0 (success).
  */
-void print_alphabet(void);{
+void print_alphabet(void);
+{
 int n = 97;
 while (n < 123)
 {
-putchar(n);
+_putchar(n);
 if (n == 122)
 {
-putchar('\n');
+_putchar('\n');
 }
 n++;
 }
