@@ -2,18 +2,19 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * _islower - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: checks if a character is lowercase or not 
  *
  * Return: Always 0 (success).
  */
 int _islower(int c)
 {
+int c ;
 if (c > 96 && c < 123)
 {
 return (1);
 }
-else 
+else
 return (0);
 }
