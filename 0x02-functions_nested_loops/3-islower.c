@@ -4,9 +4,9 @@
 /**
  * _islower - Entry point of the program.
  *
- * Description: checks if a character c is lowercase or not 
- *
- * Return: Always 0 (success).
+ * Description: checks if a character c is lowercase or not
+ * Return: 1 (success).
+* @c: c is the char to check (parameter)
  */
 int _islower(int c)
 {
