@@ -10,8 +10,8 @@
  */
 void print_alphabet_x10(void)
 {
-int j = 1 ;
-while ( j < 11)
+int j = 1;
+while (j < 11)
 {
 int n = 97;
 while (n < 123)
