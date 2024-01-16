@@ -23,7 +23,10 @@ putchar('0');
 putchar('0');
 }
 else
+{
 return (-1);
 putchar('-');
 putchar('1');
+}
+return (0);
 }
