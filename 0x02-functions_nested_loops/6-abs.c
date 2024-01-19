@@ -6,7 +6,7 @@
  * Return: a positve int 
  * @n: n is the number to check (parameter)
  */
-int _abs(int)
+int _abs(int n)
 {
 if (n > 0)
 {
