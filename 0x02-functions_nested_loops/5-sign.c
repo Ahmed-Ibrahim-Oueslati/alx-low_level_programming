@@ -4,7 +4,7 @@
 /**
  * print_sign - Entry point of the program.
  * Description: prints the sign of a number.
- *Returns 1 and prints + if n is greater than zero
+ *Return : 1 and prints + if n is greater than zero
  * @n: n is the number to check (parameter)
  */
 int print_sign(int n)
