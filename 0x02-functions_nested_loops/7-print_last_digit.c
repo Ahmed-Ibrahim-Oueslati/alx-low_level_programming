@@ -14,6 +14,6 @@ if (n < 0)
 n = n * -1;
 }
 k = n % 10;
-printf("%d",k);
+_putchar('0' + k);
 return (k);
 }
