@@ -21,6 +21,12 @@ for (l = 0; l < 10; l++)
 {
 if (i == 2 && j == 3 && k == 5 && l == 9)
 {
+_putchar('0' + i);
+_putchar('0' + j);
+_putchar(58);
+_putchar('0' + k);
+_putchar('0' + l);
+_putchar(10);
 /*Stop the loop when all four variables reach specified values*/
 return;
 }
