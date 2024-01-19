@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdio.h>
  /**
-  * print_sign - prints the sign of a number 
+  * print_sign - prints sign of number
   * Return : 1  if n is greater than zero
   * @n: n is the number to check (parameter)
 */
