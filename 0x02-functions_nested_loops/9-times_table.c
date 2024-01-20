@@ -36,7 +36,7 @@ if (i <= 10)
 _putchar(32);
 _putchar(32);
 }
-else
+if (k < 9)
 {
 _putchar(32);
 }
