@@ -18,7 +18,7 @@ while (j < 10)
 while (k < 10)
 {
 i = k * j;
-if (i > 10)
+if (i >= 10)
 {
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
@@ -31,12 +31,12 @@ if (k < 9)
 {
 _putchar(44);
 }
-if (i <= 10)
+if (i < 10 && (!(k == 9 && j < 3)))
 {
 _putchar(32);
 _putchar(32);
 }
-if (k < 9)
+if (k < 9 && i >= 10)
 {
 _putchar(32);
 }
