@@ -16,7 +16,7 @@ while (j < 10)
 {
 while (k < 10)
 {
-_putchar('0');
+_putchar('0' + k);
 if (k < 9)
 {
 _putchar(44);
