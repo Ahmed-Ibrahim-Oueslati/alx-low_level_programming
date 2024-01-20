@@ -21,6 +21,7 @@ _putchar('0' + i);
 if (k < 9)
 {
 _putchar(44);
+_putchar(32);
 }
 k++;
 }
