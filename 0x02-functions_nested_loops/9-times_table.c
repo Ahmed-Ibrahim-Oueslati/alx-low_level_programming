@@ -31,9 +31,13 @@ if (k < 9)
 {
 _putchar(44);
 }
-if (k < 10)
+if (i < 10)
 {
 _putchar(32);
+_putchar(32);
+}
+else 
+{
 _putchar(32);
 }
 k++;
