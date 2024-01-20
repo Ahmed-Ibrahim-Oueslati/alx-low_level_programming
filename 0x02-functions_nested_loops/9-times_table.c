@@ -36,7 +36,7 @@ if (i < 10 && (!(k == 9 && j < 3)))
 _putchar(32);
 _putchar(32);
 }
-if (k < 9 && i >= 10)
+if (k <= 9 && i >= 10)
 {
 _putchar(32);
 }
