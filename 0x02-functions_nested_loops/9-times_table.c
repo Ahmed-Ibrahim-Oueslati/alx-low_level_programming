@@ -23,7 +23,7 @@ if (i > 10)
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
 }
-else 
+else
 {
 _putchar('0' + i);
 }
@@ -31,12 +31,12 @@ if (k < 9)
 {
 _putchar(44);
 }
-if (i < 10)
+if (i <= 10)
 {
 _putchar(32);
 _putchar(32);
 }
-else 
+else
 {
 _putchar(32);
 }
