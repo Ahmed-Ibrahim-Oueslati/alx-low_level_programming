@@ -10,14 +10,12 @@
  */
 void times_table(void)
 {
-int i = 0 ;
-for (int j; j < 9; j++)
+int i = 0;
+int j = 0;
+while (j < 10)
 {
-_putchar('0' + i)
+_putchar('0' + i);
 _putchar(10);
-
-
-
-
+j++;
 }
 }
