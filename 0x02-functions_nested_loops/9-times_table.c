@@ -13,13 +13,14 @@ void times_table(void)
 int i = 0;
 int j = 0;
 int k = 0;
-while (j < 10)
+while (j < 11)
 {
-while (k < 10)
+while (k < 11)
 {
-_putchar('0'+ i);
-i = i + j ;
-if (k < 9)
+_putchar('0')
+_putchar(44);
+_putchar(32);
+if (k < 10)
 {
 _putchar(44);
 _putchar(32);
@@ -29,6 +30,5 @@ k++;
 k = 0;
 _putchar(10);
 j++;
-i = j;
 }
 }
