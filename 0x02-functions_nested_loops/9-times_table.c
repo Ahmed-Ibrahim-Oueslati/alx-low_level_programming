@@ -18,9 +18,13 @@ while (j < 10)
 while (k < 10)
 {
 _putchar('0' + i);
+if (k < 9)
+{
 _putchar(44);
+}
 k++;
 }
+k = 0;
 _putchar(10);
 j++;
 }
