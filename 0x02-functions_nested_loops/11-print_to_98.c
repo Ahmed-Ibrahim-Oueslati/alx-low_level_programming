@@ -17,10 +17,13 @@ if (n < 98)
 while (n < 99)
 {
 if (n != 98 )
+{
 printf("%d, ", n);
-else 
+}
+else
+{ 
 printf("%d", n);
-
+}
 n++;
 }
 
@@ -33,10 +36,13 @@ if (n >= 98)
 while (n > 97)
 {
 if (n != 98)
+{
 printf("%d, ", n);
+}
 else 
+{
 printf("%d", n);
-
+}
 n--;
 }
 }
