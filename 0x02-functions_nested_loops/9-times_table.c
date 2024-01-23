@@ -20,6 +20,7 @@ while (k < 10)
 i = k * j;
 if (i >= 10)
 {
+_putchar(32);
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
 }
