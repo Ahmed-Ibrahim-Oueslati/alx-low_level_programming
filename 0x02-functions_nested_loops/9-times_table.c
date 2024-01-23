@@ -1,39 +1,32 @@
-#include <stdlib.h>
-#include "main.h"
-#include <stdio.h>
+#include "./main.h"
+
 /**
- * times_table - Entry point of the program.
- *
- * Description:  prints the 9 times table, starting with 0
- *
- * Return: nothing (void).
+ * times_table - prints th 9 times table
+ * Return: void
  */
 void times_table(void)
 {
-int j = 0;
-int k = 0;
-int i;
-while (j < 10)
-{
-while (k < 10)
-{
-i = k * j;
-if (i >= 10)
-{
-_putchar(32);
-_putchar('0' + (i / 10));
-_putchar('0' + (i % 10));
-}
-else
-{
-_putchar(32);
-_putchar('0' + i);
-}
-k++;
-}
-k = 0;
-_putchar(10);
-j++;
-}
+int a, b, eq;
 
+	for (a = 0; a <= 9; a++)
+	{
+		_putchar(48);
+		for (b = 1; b <= 9; b++)
+		{
+			eq = a * b;
+			_putchar(44);
+			_putchar(32);
+			if (eq <= 9)
+			{
+				_putchar(32);
+				_putchar(eq + 48);
+			}
+			else
+			{
+				_putchar((eq / 10) + 48);
+				_putchar((eq % 10) + 48);
+			}
+		}
+		_putchar('\n');
+	}
 }
