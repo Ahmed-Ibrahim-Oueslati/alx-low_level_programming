@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
 
@@ -28,6 +28,6 @@ void print_to_98(int n)
             n--;
         }
     }
-    printf("%d\n", n); // Print the last number without a comma and space
+    printf("%d\n", n);
 }
 
