@@ -14,6 +14,7 @@ if ( n < 15 || n > 0)
 {
 int a = 0;
 for (a ; a <= n; a++)
+{
 _putchar(48);
 int b = 1;
 for (b ; b < n ; b++)
