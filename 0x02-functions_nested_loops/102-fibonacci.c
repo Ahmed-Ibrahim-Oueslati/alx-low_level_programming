@@ -16,7 +16,7 @@ long int p = 2;
 long int k;
 printf("%ld, ", u);
 printf("%ld, ", p);
-for (y = 1 ; y < 50 ; y++)
+for (y = 1 ; y < 49 ; y++)
 {
 k = p + u;
 printf("%ld, ", k);
