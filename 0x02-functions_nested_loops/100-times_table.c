@@ -37,13 +37,10 @@ _putchar((u % 10) + 48);
 }
 if ( u > 99) 
 {
-_putchar((u / 100) + 48);
-_putchar(((u / 10) % 10) + 48);
-_putchar((u % 10) + 48);
-}
+printf("%d", n);
 }
 _putchar('\n');
 }
 }
 }
-
+}
