@@ -14,10 +14,10 @@ if ( n <= 15 || n >= 0)
 {
 int a;
 int b;
-for (a = 0 ; a <= n; a++)
+for (a = 0 ; a <= n ; a++)
 {
 _putchar(48);
-for (b = 1 ; b < n ; b++)
+for (b = 1 ; b <= n ; b++)
 {
 int u ; 
 u = b * a ;
