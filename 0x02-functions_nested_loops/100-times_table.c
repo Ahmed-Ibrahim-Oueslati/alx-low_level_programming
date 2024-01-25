@@ -30,7 +30,7 @@ _putchar(32);
 _putchar(u + 48);
 } 
 
-else if ( u >= 10 || u <= 99)
+else if ( u >= 10 &&  u <= 99)
 {
 _putchar((u / 10) + 48);
 _putchar((u % 10) + 48);
