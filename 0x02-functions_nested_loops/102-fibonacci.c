@@ -11,15 +11,15 @@
 int main(void)
 {
 int y;
-int u = 1;
-int p = 2;
-int k;
-printf("%d, ", u);
-printf("%d, ", p);
+long int u = 1;
+long int p = 2;
+long int k;
+printf("%ld, ", u);
+printf("%ld, ", p);
 for (y = 1 ; y < 50 ; y++)
 {
 k = p + u;
-printf("%d, ", k);
+printf("%ld, ", k);
 
 u = p;
 p = k;
