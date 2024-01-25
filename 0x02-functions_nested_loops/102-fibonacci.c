@@ -19,11 +19,11 @@ printf("%ld, ", p);
 for (y = 1 ; y < 49 ; y++)
 {
 k = p + u;
-if ( y != 48)
+if (y != 48)
 {
 printf("%ld, ", k);
 }
-else 
+else
 {
 printf("%ld", k);
 }
