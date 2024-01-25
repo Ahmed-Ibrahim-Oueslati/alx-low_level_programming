@@ -5,12 +5,12 @@
  * add - Entry point of the program.
  *
  * Description: Prints a string to the console.
- *
- * Return: Always 0 (success).
+ *@c , @b parameters to manipulate
+ * Return: int.
  */
  int add(int c, int b)
 {
 int j;
-j = c + b; 
+j = c + b;
 return (j);
 }
