@@ -23,15 +23,16 @@ int u ;
 u = b * a ;
 _putchar(44);
 _putchar(32);
-_putchar(32);
 if (u <= 9 )   
 {
+_putchar(32);
 _putchar(32);
 _putchar(u + 48);
 } 
 
 else if ( u >= 10 &&  u <= 99)
 {
+_putchar(32);
 _putchar((u / 10) + 48);
 _putchar((u % 10) + 48);
 }
