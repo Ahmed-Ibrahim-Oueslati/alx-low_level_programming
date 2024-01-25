@@ -10,7 +10,7 @@
  */
 void print_times_table(int n)
 {
-if ( n <= 15 || n >= 0)
+if (n <= 15 &&  n >= 0)
 {
 int a;
 int b;
@@ -37,10 +37,22 @@ _putchar((u % 10) + 48);
 }
 if ( u > 99) 
 {
-printf("%d", n);
+int i;
+int p;
+int k;
+int t;
+i = u / 100;
+p = u / 10;
+k = p % 10;
+t = u % 10;
+
+_putchar(i + 48);
+_putchar(k + 48);
+_putchar(t + 48);
+}
 }
 _putchar('\n');
 }
-}
+
 }
 }
