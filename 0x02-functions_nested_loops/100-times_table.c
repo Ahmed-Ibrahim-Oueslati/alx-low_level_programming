@@ -17,7 +17,7 @@ int b;
 for (a = 0 ; a <= n; a++)
 {
 _putchar(48);
-for (b = 0 ; b < n ; b++)
+for (b = 1 ; b < n ; b++)
 {
 int u ; 
 u = b * a ;
@@ -35,7 +35,7 @@ else if ( u >= 10 || u <= 99)
 _putchar((u / 10) + 48);
 _putchar((u % 10) + 48);
 }
-else 
+if ( u > 99) 
 {
 _putchar(((u / 10) / 10) + 48);
 _putchar(((u / 10) % 10) + 48);
