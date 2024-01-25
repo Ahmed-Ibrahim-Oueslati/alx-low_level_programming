@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
  /**
-  * main - Entry point of the program.
-  * Description:  prints the sum of all the multiples of 3 or 5 below 1024
-  * Return: 0 success
+ * main - Entry point
+ *
+ * description : prints the sum of m3 and m5 below 1024
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
