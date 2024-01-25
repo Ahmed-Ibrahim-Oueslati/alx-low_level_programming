@@ -24,7 +24,7 @@ int u;
 u = b * a;
 _putchar(44);
 _putchar(32);
-if (u <= 9 )
+if (u <= 9)
 {
 _putchar(32);
 _putchar(32);
@@ -36,13 +36,12 @@ _putchar(32);
 _putchar((u / 10) + 48);
 _putchar((u % 10) + 48);
 }
-if ( u > 99)
+if (u > 99)
 {
 int i = u / 100;
 int p = u / 10;
 int k = p % 10;
 int t = u % 10;
-
 _putchar(i + 48);
 _putchar(k + 48);
 _putchar(t + 48);
@@ -50,6 +49,5 @@ _putchar(t + 48);
 }
 _putchar('\n');
 }
-
 }
 }
