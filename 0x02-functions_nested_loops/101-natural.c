@@ -21,4 +21,4 @@ y = y + a;
 }
 printf("%d\n", y);
 return (0);
-}         
+}
