@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
  /**
- * main - Entry point
+ * main : Entry point
  *
- * description : prints the sum of m3 and m5 below 1024
+ * description: prints the sum of m3 and m5 below 1024
  *
  * Return: Always 0 (success)
  */
