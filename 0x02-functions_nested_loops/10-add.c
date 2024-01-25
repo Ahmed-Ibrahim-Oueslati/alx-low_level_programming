@@ -4,9 +4,9 @@
 /**
  * add - Entry point of the program.
  *
- * Description: Prints a string to the console.
- *@c parameter to manipulate 
- * @b parameters to manipulate
+ *Description: Prints a string to the console.
+ *@c: parameter to manipulate
+ *@b: parameters to manipulate
  * Return: int.
  */
 int add(int c, int b)
