@@ -1,28 +1,35 @@
+#include <stdlib.h>
+#include "main.h"
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - Entry point of the program.
  *
- * prints the first 98 Fibonacci numbers, starting with 1 and 2
+ * Description: Prints a string to the console.
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success).
  */
 int main(void)
 {
-unsigned long i = 0, j = 1, seq;
-int count;
-
-	for (count = 0; count < 97; count++)
-	{
-		seq = i + j;
-		i = j;
-		j = seq;
-		printf("%ld", seq);
-		if (count < 96)
-		{
-			printf(", ");
-		}
-	}
-	printf("\n");
-	return (0);
+int y;
+unsigned  long int u = 1;
+unsigned  long int p = 2;
+unsigned long int k;
+printf("%lu, ", u);
+printf("%lu, ", p);
+for (y = 1 ; y < 97 ; y++)
+{
+k = p + u;
+if (y != 96)
+{
+printf("%lu, ", k);
+}
+else
+{
+printf("%lu", k);
+}
+u = p;
+p = k;
+}
+printf("\n");
+return (0);
 }
