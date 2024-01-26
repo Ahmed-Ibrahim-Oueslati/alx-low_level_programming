@@ -11,21 +11,21 @@
 int main(void)
 {
 int y;
-long long int u = 1;
-long long int p = 2;
-long long int k;
-printf("%lld, ", u);
-printf("%lld, ", p);
+unsigned  long int u = 1;
+unsigned  long int p = 2;
+unsigned long int k;
+printf("%lu, ", u);
+printf("%lu, ", p);
 for (y = 1 ; y < 97 ; y++)
 {
 k = p + u;
 if (y != 96)
 {
-printf("%lld, ", k);
+printf("%lu, ", k);
 }
 else
 {
-printf("%lld", k);
+printf("%lu", k);
 }
 u = p;
 p = k;
