@@ -14,7 +14,7 @@ int y;
 long int u = 1;
 long int p = 2;
 long int k;
-long int m = 0;
+long int m = 2;
 for (y = 1 ; y < 49 ; y++)
 {
 k = p + u;
