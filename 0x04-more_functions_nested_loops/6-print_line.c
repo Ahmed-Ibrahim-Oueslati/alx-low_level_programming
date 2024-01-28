@@ -5,7 +5,7 @@
  * print_line - Entry point of the program.
  *
  * Description: Prints a line in the terminal
- *
+ *@n: parameter to print
  * Return: void.
  */
 void print_line(int n)
