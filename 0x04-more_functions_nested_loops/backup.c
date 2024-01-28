@@ -13,19 +13,21 @@ void more_numbers(void)
 {
 int a;
 int b;
-int c;
 for (b = 0; b < 10; b++)
 {
-for (a = 48; a < 58; a++)
+for (a = 0; a < 15; a++)
 {
+if (a < 10)
+{
+
 write(1, &a, 1);
 }
-for (c = 10; c < 15; c++)
+else
 {
-_putchar((c / 10) + '0');
-_putchar((c % 10) + '0');
+_putchar((a / 10) + '0');
+_putchar((a % 10) + '0');
 }
-
+}
 _putchar('\n');
 }
 }
