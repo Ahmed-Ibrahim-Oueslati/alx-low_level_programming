@@ -25,7 +25,6 @@ for (c = 10; c < 15; c++)
 _putchar((c / 10) + '0');
 _putchar((c % 10) + '0');
 }
-
 _putchar('\n');
 }
 }
