@@ -24,7 +24,7 @@ _putchar('\\');
 _putchar(10);
 }
 }
-else 
+else
 {
 _putchar(10);
 }
