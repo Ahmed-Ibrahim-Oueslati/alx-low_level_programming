@@ -13,7 +13,7 @@ void print_triangle(int size)
 int p;
 int b;
 int k = size;
-int u; 
+int u;
 int m = 1;
 if (size > 0)
 {
@@ -32,7 +32,7 @@ m++;
 _putchar(10);
 }
 }
-else 
+else
 {
 _putchar(10);
 }
