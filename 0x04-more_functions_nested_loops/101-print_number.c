@@ -2,10 +2,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * print_number - Entry point of the program.
  *
  * Description: prints an integer..
- *
+ *@n: paramter to print
  * Return: Always 0 (success).
  */
 void print_number(int n)
@@ -16,7 +16,6 @@ if (n < 0)
 n = n * -1;
 _putchar('-');
 }
-
 if (n < 10)
 {
 _putchar(n + '0');
