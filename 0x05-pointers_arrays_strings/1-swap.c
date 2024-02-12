@@ -2,13 +2,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * swap_int - Entry point of the program.
  *
  * Description: Prints a string to the console.
- *
- * Return: Always 0 (success).
+ *@a:parameter
+ *@b:parameter
+ * Return: void.
  */
-int main(void)
+void swap_int(int *a, int *b)
 {
-return (0);
+int x;
+x = *a;
+*a = *b;
+*b = x;
 }
