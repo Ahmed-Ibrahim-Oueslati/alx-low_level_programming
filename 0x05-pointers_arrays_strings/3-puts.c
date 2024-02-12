@@ -6,23 +6,18 @@ int _strlen(char *s);
  *_puts - Entry point of the program.
  *
  * Description: prints a string, followed by a new line
- *
+ *@str:string to print
  * Return: void.
  */
- int _strlen(char *s)
+void _puts(char *str)
 {
 int j = 0;
-while (s[j] != '\0')
+int i;
+while (str[j] != '\0')
 {
 j++;
 }
-return (j);
-}
-void _puts(char *str)
-{
-int i;
-int y =  _strlen(str);
-for (i=0; i < y; i++)
+for (i = 0; i < j; i++)
 {
 _putchar(str[i]);
 }
