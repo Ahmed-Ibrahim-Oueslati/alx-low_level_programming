@@ -4,7 +4,7 @@
 /**
  * swap_int - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: swp the values of 2 integers.
  *@a:parameter
  *@b:parameter
  * Return: void.

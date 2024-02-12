@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: turn the value of an int to 98.
  *@n: parameter to change
  * Return: void.
  */
