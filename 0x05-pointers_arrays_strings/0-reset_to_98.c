@@ -2,11 +2,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * reset_to_98 - Entry point of the program.
  *
  * Description: Prints a string to the console.
- *
- * Return: Always 0 (success).
+ *@n: parameter to change
+ * Return: void.
  */
 void reset_to_98(int *n)
 {
