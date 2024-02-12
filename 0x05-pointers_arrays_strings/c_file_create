@@ -19,5 +19,5 @@ else
 	echo "{" >> $1
 	echo "return (0);" >> $1
 	echo "}" >> $1
-	vi $1
+	
 fi
