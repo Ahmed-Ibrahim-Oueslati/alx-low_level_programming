@@ -19,7 +19,6 @@ j++;
 printf("j = %d\n", j);
 for (i = 0; i <= j; i++)
 {
-_putchar(str[0]);
 if (i % 2 == 0)
 {
 _putchar(str[i]);
