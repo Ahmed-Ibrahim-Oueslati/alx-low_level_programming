@@ -5,7 +5,7 @@
  * puts_half - Entry point of the program.
  *
  * Description: prints half of a string, followed by a new line.
- *
+ *@str: string to manipulate
  * Return: void.
  */
 void puts_half(char *str)
@@ -16,7 +16,7 @@ while (str[j] != '\0')
 j++;
 }
 j = j - 1;
-for (i = j/2 + 1; i <= j; i++)
+for (i = j / 2 + 1; i <= j; i++)
 {
 _putchar(str[i]);
 }
