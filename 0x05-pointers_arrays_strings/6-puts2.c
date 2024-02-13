@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void puts2(char *str) - Entry point of the program.
+ * puts2 - Entry point of the program.
  *
  * Description: prints every other character of a string,
  * starting with the first character, followed by a new line.
