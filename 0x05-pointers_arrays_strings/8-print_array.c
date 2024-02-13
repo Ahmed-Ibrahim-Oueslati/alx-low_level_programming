@@ -5,7 +5,7 @@
  * print_array - Entry point of the program.
  *
  * Description: prints n elements of an array
-  of integers, followed by a new line.
+ * of integers, followed by a new line.
  *@a: array
  *@n: nb of elements
  * Return: Always 0 (success).
@@ -16,11 +16,11 @@ int i;
 n--;
 for (i = 0 ; i <= n; i++)
 {
-if ( i != n)
-{ 
+if (i != n)
+{
 printf("%d, ", a[i]);
 }
-else 
+else
 {
 printf("%d", a[i]);
 }
