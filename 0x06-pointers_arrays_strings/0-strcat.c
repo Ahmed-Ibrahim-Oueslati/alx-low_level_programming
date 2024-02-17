@@ -11,8 +11,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-int j = 0 , i = 0;
-char *p = "";
+int j = 0, i = 0;
 while (dest[j] != '\0')
 {
 j++;
@@ -23,6 +22,6 @@ dest[j] = src[i];
 j++;
 i++;
 }
-dest[j+1] = '\0';
-return (p);
+dest[j + 1] = '\0';
+return (dest);
 }
