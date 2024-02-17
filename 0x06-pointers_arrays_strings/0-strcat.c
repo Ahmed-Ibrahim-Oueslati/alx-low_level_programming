@@ -2,13 +2,27 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * _strcat - Entry point of the program.
  *
- * Description: Prints a string to the console.
- *
- * Return: Always 0 (success).
+ * Description: concatenates two strings.
+ *@dest: string 1
+ *@src: string 2
+ * Return: char.
  */
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-return (0);
+int j = 0 , i = 0;
+char *p = "";
+while (dest[j] != '\0')
+{
+j++;
+}
+while (src[i] != '\0')
+{
+dest[j] = src[i];
+j++;
+i++;
+}
+dest[j+1] = '\0';
+return (p);
 }
