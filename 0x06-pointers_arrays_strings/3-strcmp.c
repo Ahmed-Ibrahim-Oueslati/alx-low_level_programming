@@ -24,14 +24,14 @@ j++;
 }
 
 for (k = 0 ; k < i ; k++)
-{ 
+{
 n = s1[k] - s2[k];
 
 if (n < 0)
 {
 break;
 }
- if (n > 0)
+if (n > 0)
 {
 break;
 }
