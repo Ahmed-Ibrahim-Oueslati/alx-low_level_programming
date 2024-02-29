@@ -5,14 +5,77 @@
 #define NUM_STRINGS 71
 
 int main(void) {
-    char *str[NUM_STRINGS] = {"Dimitar.Petkov","Dimitar.Tsvetkov","dimka.ivanova","Dinko.Stefanov","Diyan.Petrov","Donka.Terzieva","Elena.Pencheva","Emiliya.Kehayova","Erdinch.Selim","Genadi.Petrov",
-        "Gergana.Koeva","Gergana.Stancheva","Gergana.Todorova","Yuliy.Grigorov","Halibryam.Halibryam","Halime.Shaban","Hristina.Geneva","Hristo.Rusev","Hurie.Beysim","Ilhan.Ismailov",
-        "Inna.Hranislavova","Israfil.Mehmed","Ivan.Dimchev","Ivan.Toshkov","Kameliya.Zhikova","Jaroslaw.Knopik","Kristian.Krastev","Magda.Todorova","Veselina.Marinova","Metin.Ismail",
-        "Miroslav.Andreev","Miroslav.Shilov","Momchil.Georgiev","Nadrie.Topchu","Neli.Stoyanova","Neslyan.Latifova","Nevrie.Yumer","Nezhda.Ahmed","Nikolay.Angelov","Nikolay.Atanasov",
-        "Nikolay.Grozdev","Nikolay.Koev","Nurtin.Karamehmed","Neslyan.Latifova","Plamena.Ivanova","Rabie.Adem","Radka.Todorova","Ralitsa.Momcheva","Redzheb.Boshnak","Ivan.Sabev",
-        "Sabka.Zlatanova","Sevdiye.Salimova","Sevginar.Karamehmed","Sezai.Yumerchaush","Shenay.Mustafa","Silviya.Stancheva","Mariyana.Simeonova","Sonya.Baleva","Sotir.Kostov",
-        "Stefka.Ivanova","Stefani.Nikolova","Taner.Mutlu","Taner.Eredzheb","Teodor.Gospodinov","Teodor.Todorov","Todor.Nikolov","Tonya.Minkova","Veselin.Kolev","Veselin.Milev",
-        "Vladimir.Valev","Zhivko.Minchev"
+    char *str[NUM_STRINGS] = {"dimitar.petkov
+dimitar.tsvetkov
+dimka.ivanova
+dinko.stefanov
+diyan.petrov
+donka.terzieva
+elena.pencheva
+emiliya.kehayova
+erdinch.selim
+genadi.petrov
+gergana.koeva
+gergana.stancheva
+gergana.todorova
+yuliy.grigorov
+halibryam.halibryam
+halime.shaban
+hristina.geneva
+hristo.rusev
+hurie.beysim
+ilhan.ismailov
+inna.hranislavova
+israfil.mehmed
+ivan.dimchev
+ivan.toshkov
+kameliya.zhikova
+jaroslaw.knopik
+kristian.krastev
+magda.todorova
+veselina.marinova
+metin.ismail
+miroslav.andreev
+miroslav.shilov
+momchil.georgiev
+nadrie.topchu
+neli.stoyanova
+neslyan.latifova
+nevrie.yumer
+nezhda.ahmed
+nikolay.angelov
+nikolay.atanasov
+nikolay.grozdev
+nikolay.koev
+nurtin.karamehmed
+neslyan.latifova
+plamena.ivanova
+rabie.adem
+radka.todorova
+ralitsa.momcheva
+redzheb.boshnak
+ivan.sabev
+sabka.zlatanova
+sevdiye.salimova
+sevginar.karamehmed
+sezai.yumerchaush
+shenay.mustafa
+silviya.stancheva
+mariyana.simeonova
+sonya.baleva
+sotir.kostov
+stefka.ivanova
+stefani.nikolova
+taner.mutlu
+taner.eredzheb
+teodor.gospodinov
+teodor.todorov
+todor.nikolov
+tonya.minkova
+veselin.kolev
+veselin.milev
+vladimir.valev
+zhivko.minchev"
         // Your string array initialization...
     };
 
