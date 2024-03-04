@@ -8,8 +8,19 @@
  *@s: string that all of it's words will be capitalized.
  * Return: Always 0 (success).
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-
-return (0);
+int i; 
+for (i = 0; s[i] != '\0'; i++)
+{
+if (s[i] == ' ' || s[i] == ',')
+{
+if (s[i + 1] <= 'z' && s[i + 1] >= 'a')
+{
+s[i + 1] = s[i + 1] - 32;
 }
+}
+}
+return (s);
+}
+
