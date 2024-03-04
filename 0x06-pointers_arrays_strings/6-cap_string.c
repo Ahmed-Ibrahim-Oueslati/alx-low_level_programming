@@ -4,11 +4,12 @@
 /**
  * cap_string - Entry point of the program.
  *
- * Description: Prints a string to the console.
- *
+ * Description: capitalizes all words of a string.
+ *@s: string that all of it's words will be capitalized.
  * Return: Always 0 (success).
  */
 char *cap_string(char *)
 {
+
 return (0);
 }
