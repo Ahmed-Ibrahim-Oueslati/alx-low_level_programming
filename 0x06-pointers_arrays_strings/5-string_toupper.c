@@ -16,10 +16,9 @@ while (str[j] != '\0')
 {
 j++;
 }
-j--;
 for (i = 0; i < j; i++)
 {
-if (str[i] <= 122 && str[i] >= 97)
+if (str[i] <= 'z' && str[i] >= 'a')
 {
 str[i] = str[i] - 32;
 }
