@@ -12,25 +12,16 @@ char *leet(char *s)
 {
 int i; 
 int j;
-
-char p[] = "aeptl";
-char p1[] = "AEPTL";
-char p2[] = "43071";
-
-
-
-
+char p[] = "a4e3o0t7l1A4E3O0T7L1";
 for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; j <= 4; j++)
+for (j = 0; j <= 21; j++)
+{ 
+if (s[i] == p[j])
 {
-if (s[i] == p[j] || s[i] == p1[j])
-{
-s[i] = p2[j];
+s[i] = p[j + 1];
 }
 }
 }
 return (s);
 }
-
-
