@@ -5,12 +5,12 @@
  * leet - Entry point of the program.
  *
  * Description: encodes a string into 1337.
- *@s: string to encode 
+ *@s: string to encode
  * Return: Always 0 (success).
  */
 char *leet(char *s)
 {
-int i; 
+int i;
 int j;
 
 char p[] = "aeotl";
