@@ -10,7 +10,7 @@
  */
 void print_number(int n)
 {
-    int reversed = 0;
+int reversed = 0;
 if (n < 0)
 {
 n = n * -1;
