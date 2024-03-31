@@ -5,12 +5,12 @@
  * rot13 - Entry point of the program.
  *
  * Description: encodes a string using rot13.
- *@s: stringto encode 
+ *@s: string to encode
  * Return: Always 0 (success).
  */
 char *rot13(char *s)
-{ 
-int i; 
+{
+int i;
 int j;
 
 char p[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -27,7 +27,7 @@ for (j = 0; j <= 51; j++)
 if (s[i] == p[j])
 {
 s[i] = p2[j];
- break;
+break;
 }
 }
 }
