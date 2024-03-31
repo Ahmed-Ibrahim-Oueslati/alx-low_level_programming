@@ -13,8 +13,8 @@ char *leet(char *s)
 int i; 
 int j;
 
-char p[] = "aeptl";
-char p1[] = "AEPTL";
+char p[] = "aeotl";
+char p1[] = "AEOTL";
 char p2[] = "43071";
 
 
