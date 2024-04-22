@@ -1,60 +1,48 @@
-#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
+
 /**
- * infinite_add - Entry point of the program.
- *
- * Description: adds two numbers.
- *@n1: num 1
- *@n2:num 2
- * Return: the sum.
+ * infinite_add - adds two numbers
+ * @n1: first number
+ * @n2: second number
+ * @r: buffer for result
+ * @size_r: buffer size
+ * ahhh! Crazy task! Expand your knowledge
+ * Return: address of r or 0
  */
- int _atoi(char *s)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int j = 0;
-int p = 1;
-int k;
-unsigned int L = 0;
-int ini = 1;
-int bnb = 1;
-while (s[j] != '\0')
-{
-j++;
-}
-j--;
+	int i, j, k, l, m, n;
 
-for (k = 0; k <= j; k++)
-{
-if (s[k] >= 48 && s[k] <= 57)
-{
-bnb++;
-L = (L * 10) + (s[k] - '0');
+	for (i = 0; n1[i]; i++)
+		;
+	for (j = 0; n2[j]; j++)
+		;
+	if (i > size_r || j > size_r)
+		return (0);
+	m = 0;
+	for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
+	{
+		n = m;
+		if (i >= 0)
+			n += n1[i] - '0';
+		if (j >= 0)
+			n += n2[j] - '0';
+		if (i < 0 && j < 0 && n == 0)
+		{
+			break;
+		}
+		m = n / 10;
+		r[k] = n % 10 + '0';
+	}
+	r[k] = '\0';
+	if (i >= 0 || j >= 0 || m)
+		return (0);
+	for (k -= 1, l = 0; l < k; k--, l++)
+	{
+		m = r[k];
+		r[k] = r[l];
+		r[l] = m;
+	}
+	return (r);
 }
-if (s[k] == 45)
-{
-p *= -1;
-}
-if (!(s[k] >= 48 && s[k] <= 57) && (bnb > ini))
-{
-break;
-}
-}
-L *= p;
-return (L);
-}
-char *infinite_add(char *n1, char *n2, char *n3)
-{
-   int n4 ;
-   int n5 ;
-   int n6 ;
-   
-
-
-n4 =  _atoi(n1);
-n5 = _atoi(n2);
-n6 = n4 + n5;
-
- sprintf(n3, "%d", n6);
-
-return (n3);
-}
+/*Bwave */
