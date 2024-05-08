@@ -23,5 +23,10 @@ break;
 }
 i++;
 }
+
+if (p == NULL)
+{
+return (NULL);
+}
 return (p);
 }
