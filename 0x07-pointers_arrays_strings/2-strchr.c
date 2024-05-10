@@ -4,7 +4,7 @@
 /**
  * _strchr - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: a function that locates a character in a string.
  *@s: string to parse
  *@c: char to find
  * Return: Always 0 (success).

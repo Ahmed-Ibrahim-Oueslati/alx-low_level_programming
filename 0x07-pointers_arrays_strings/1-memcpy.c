@@ -4,7 +4,7 @@
 /**
  * _memcpy - Entry point of the program.
  *
- * Description: Prints a string to the console.
+ * Description: a function that copies memory area.
  *@dest: memory area 2
  *@src: the  memory area 1
  *@n: number of bytes to copy
