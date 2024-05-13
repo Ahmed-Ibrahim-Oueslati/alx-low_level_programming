@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * _strchr - Entry point of the program.
  *
