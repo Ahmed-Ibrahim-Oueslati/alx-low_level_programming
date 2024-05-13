@@ -45,7 +45,8 @@ char *_strpbrk(char *s, char *accept)
  
 int i, j;
 char *h;
-while (accept[j] != '\0')
+j = 0;
+while (s[j] != '\0')
 {
     j++;
 }
@@ -64,5 +65,6 @@ h[i] = *_strchr(s, accept[i]);
 else 
 h[i] = accept[i];
 }
+free(h);
 return (h);
 }
