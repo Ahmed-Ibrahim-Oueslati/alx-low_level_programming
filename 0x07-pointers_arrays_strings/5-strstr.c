@@ -1,80 +1,85 @@
-#include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * _strchr - Entry point of the program.
+ * _strncpy - Entry point of the program.
  *
- * Description: a function that locates a character in a string.
- *@s: string to parse
- *@c: char to find
+ * Description: copies a string.
+ *@dest: string 1
+ *@src: string 2
  * Return: Always 0 (success).
  */
-char *_strchr(char *s, char c)
+char *_strncpy(char *dest, char *src)
 {
 int i;
-char *p = NULL;
 i = 0;
-while (s[i] != '\0')
+while (src[i] != '\0')
 {
-if (s[i] == c)
-{
-p = &s[i];
-break;
-}
+dest[i] = src[i];
 i++;
 }
 
-if (p == NULL)
-{
-return (NULL);
+return (dest);
 }
-return (p);
-}
-
-/**
- * _strstr- Entry point of the program.
- *
- * Description: function that locates a substring
- *
- * Return: Always 0 (success).
- */
 char *_strstr(char *haystack, char *needle)
 {
-
+int haystack_len = 0;
+int needle_len = 0;
 int i, j;
 char *h;
 
+/* Calculate the length of haystack and needle*/
+while (haystack[haystack_len] != '\0')
+haystack_len++;
+while (needle[needle_len] != '\0')
+needle_len++;
 
-j = 0;
-while (haystack[j] != '\0')
+/* Allocate memory for the substring*/
+h = (char *)malloc((haystack_len + 1) * sizeof(char));
+if (h == NULL)
 {
-    j++;
+printf("Memory allocation failed.\n");
+return (NULL);
 }
 
-    h = (char *)malloc(j); 
-    if (h == NULL) {
-        printf("Memory allocation failed.\n");
-        return NULL;
-    }
- for (i = 0; haystack[i] != '\0'; i++)
+/*Iterate through haystack to find the substring*/
+for (i = 0; i <= haystack_len - needle_len; i++)
 {
-h[i] = *_strchr(needle, haystack[i]);
-
+/* Check if needle matches substring starting from haystack[i]*/
+for (j = 0; j < needle_len; j++)
+{
+if (haystack[i + j] != needle[j])
+break; /*Not a match*/
+}
+/*If needle matches substring starting from haystack[i]*/
+if (j == needle_len)
+{
+/*Copy the substring from haystack to h */
+_strncpy(h, haystack + i);
+return (h);
+}
 }
 
-return (h); 
-
- /* for (i = 0; s[i] != '\0'; i++) {
-        if (_strchr(needle, s[i]) != NULL) {
-            _strncpy(h, &s[i]);  Copy substring of s starting from s[i] into h*/
-           /* return h;
-        }
-    }
-*/
-    /* If no character from accept is found in s*/
-   /* Free the allocated memory before returning NULL*/
-
-
-    return NULL;
-
+/* If substring is not found, free memory and return NULL */
+free(h);
+return (NULL);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
