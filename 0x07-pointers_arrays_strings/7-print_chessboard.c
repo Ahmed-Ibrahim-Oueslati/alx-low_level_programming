@@ -22,5 +22,5 @@ _putchar(a[i][j]);
 }
 printf("\n");
 }
-printf("\n");
+
 }
