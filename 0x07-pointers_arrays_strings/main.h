@@ -9,5 +9,6 @@ char *_pmaking(char *list);
 char *_strpbrk(char *s, char *accept);
 char *_strncpy(char *dest, char *src);
 char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 
 #endif 
