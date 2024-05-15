@@ -1,6 +1,7 @@
-#include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * _strchr - Entry point of the program.
  *
@@ -30,13 +31,13 @@ return (NULL);
 }
 return (p);
 }
+
 /**
  * _strncpy - Entry point of the program.
  *
  * Description: copies a string.
  *@dest: string 1
  *@src: string 2
- *@n: nb of bytes
  * Return: Always 0 (success).
  */
 char *_strncpy(char *dest, char *src)
@@ -52,6 +53,7 @@ i++;
 
 return (dest);
 }
+
 /**
  * _strpbrk- Entry point of the program.
  *
@@ -62,41 +64,28 @@ return (dest);
  */
 char *_strpbrk(char *s, char *accept)
 {
-
- 
 int i, j;
 char *h;
 j = 0;
 while (s[j] != '\0')
 {
-    j++;
+j++;
 }
-
-    h = (char *)malloc(j); 
-    if (h == NULL) {
-        printf("Memory allocation failed.\n");
-        return NULL;
-    }
-/* for (i = 0; s[i] != '\0'; i++)
+h = (char *)malloc(j);
+if (h == NULL)
 {
-if ((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A' ))
+printf("Memory allocation failed.\n");
+return (NULL);
+}
+for (i = 0; s[i] != '\0'; i++)
 {
-h[i] = *_strchr(accept, s[i]);
+if (_strchr(accept, s[i]) != NULL)
+{
+_strncpy(h, &s[i]); /* Copy substring of s starting from s[i] into h*/
+return (h);
 }
-else 
-h[i] = s[i];
 }
-
-return (h); */
-
- for (i = 0; s[i] != '\0'; i++) {
-        if (_strchr(accept, s[i]) != NULL) {
-            _strncpy(h, &s[i]); /* Copy substring of s starting from s[i] into h*/
-            return h;
-        }
-    }
-
-    /* If no character from accept is found in s*/
-    free(h); /* Free the allocated memory before returning NULL*/
-    return NULL;
+/* If no character from accept is found in s*/
+free(h); /* Free the allocated memory before returning NULL*/
+return (NULL);
 }
