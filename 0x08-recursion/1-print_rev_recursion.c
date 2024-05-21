@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 /**
 * length_string - Calculates the length of a string recursively.
 * @s: The string to calculate length from.
@@ -12,10 +10,16 @@ int length_string(char *s)
 
 {
 if (*s == '\0')
-return 0;
-return 1 + length_string(s + 1);
+return (0);
+return (1 + length_string(s + 1));
 }
 
+/**
+* rev_string_recursive - Helper function to reverse a string recursively.
+* @s: The string to reverse.
+* @start: The starting index.
+* @end: The ending index.
+*/
 void rev_string_recursive(char *s, int start, int end)
 
 {
@@ -23,12 +27,12 @@ char temp;
 if (start >= end)
 return;
 
-/*Swap the characters*/
+/* Swap the characters */
 temp = s[start];
 s[start] = s[end];
 s[end] = temp;
 
-/*Recur for the next pair*/
+/* Recur for the next pair */
 rev_string_recursive(s, start + 1, end - 1);
 }
 
@@ -44,19 +48,6 @@ rev_string_recursive(s, 0, len - 1);
 }
 
 /**
-* print_all_letters_starting_from - Prints all letters starting from a given position in a string.
-* @s: The string to print from.
-*/
-void print_all_letters_starting_from(char *s)
-
-{
-if (*s == '\0')
-return;
-putchar(*s);
-print_all_letters_starting_from(s + 1);
-}
-
-/**
 * _puts_recursion - Prints a string, followed by a new line.
 * @s: The string to print.
 */
@@ -65,7 +56,7 @@ void _puts_recursion(char *s)
 {
 if (*s == '\0')
 return;
-printf("%c", *s);
+putchar(*s);
 _puts_recursion(s + 1);
 }
 
@@ -81,4 +72,5 @@ return;
 _print_rev_recursion(s + 1);
 putchar(*s);
 }
+
 
