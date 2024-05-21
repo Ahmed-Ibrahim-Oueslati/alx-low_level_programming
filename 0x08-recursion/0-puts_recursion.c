@@ -9,6 +9,7 @@
 */
 void print_all_letters_starting_from(char *s)
 {
+
 if (*s == '\0')
 {
 return;
