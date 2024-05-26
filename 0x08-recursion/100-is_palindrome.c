@@ -9,7 +9,7 @@
  *
  * Return: 1 if the string is a palindrome, 0 otherwise.
  */
-int checker(char *s, int y, int x)
+int checker(char *s, int x, int y)
 
 {
 if (x >= y)/* Base case: When indices have met or crossed */
@@ -18,7 +18,7 @@ return (1);
 if (s[x] != s[y]) /* If characters at current indices do not match */
 return (0);
 
-return (checker(s, x + 1, y - 1));
+return (checker(s, x - 1, y + 1));
 }
 
 /**
