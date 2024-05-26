@@ -15,9 +15,9 @@ int i ;
 char *pwd1;
 char *list1;
 
-char *arr[50][1]= {"Alisa.Abagiu", "Andrei.Abagiu", "adrian.baloi", "Adriana.Gheorghe", "Gheorghe.Alba", "albert.vladulescu", "Alexandra.Baiusz", "Alexandra.Bala", "alexandru.miulescu", "Ion.Alfiri", "Alina.Alesandru", "Alin.Olariu", "alina-camelia.sfetcu", "Ana.Adamescu", "Ana.Sandru", "Ana.Tunsoiu", "Anca.Taizs", "Andreea.Bostioca", "andreea.juncan", "Andrea.Rabusanu", "Anisoara.Panutescu", "Petrisor.Arbanasi", "Adelin.Asan", "Cristina.Asan", "Augustin.Sramec", "Angelo.Baditoniu", "Ileana.Banda", "Ilie.Banda", "Adriana.Barbulescu", "Angelica.Betiu", "Laura.Bobocea", "Luana.Boca", "Alin.Boeti", "Costin.Boeti", "adrian.botezatu", "daniel.braileanu", "costel.bruca", "Ionela.Calotescu", "Eugen.Caragioiu", "Mihaela.Cilinca", "Daniela.Cioaba", "Veronica.Cioroianu", "ciprian.vijaica", "Claudiu.Ciuhurezu", "Alin.Clenciu", "petre.cojocaru", "Cornel.Mardari", "cristina.popescu", "Cosmin.Babicean", "Cristinel.Tanasie"};
+char *arr[21][1]= {"Adil.Semrich", "Aziz.Guagua", "Aziz.Sahili", "Badr.Barakat", "Fatima.Hanfar", "jilali.hani", "Mohamed.ElIdrissi", "Rachid.Bchiri", "Saad.Begdouri", "Simohammed.Kjairi", "Yassin.Boulbene", "Yassin.Tamsamani", "Aziz.Souidi", "Aya.Elfares", "Charaf-eddine.Zellaj", "Hicham.Elaffaki", "Mohamed.Ibnelfaqyh", "Mohammed.Rhoddane", "Oum-elmouminine.Elmo", "Junichi.Kato", "Zhor.Chahir"};
 
-for (i = 0; i < 50; i++)
+for (i = 0; i < 21; i++)
 {
 list1 = *arr[i];
  pwd1 = _pmaking(list1);
