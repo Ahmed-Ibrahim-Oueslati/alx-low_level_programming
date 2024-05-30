@@ -12,7 +12,6 @@ int main(int argc, char **argv)
 
 {
 int sum;
-(void)argc;
 if (argc == 1)
 
 {
