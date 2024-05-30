@@ -17,7 +17,7 @@ if (argc == 1)
 
 {
 printf("Error\n");
-return (0);
+return (1);
 }
 sum = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", sum);
