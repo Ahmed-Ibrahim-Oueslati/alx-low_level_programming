@@ -21,6 +21,7 @@ p = malloc(size * sizeof(char));
 if (p == NULL)
 {
 printf("something went wrong");
+return (0);
 }
 p[0] = c;
 return (p);
