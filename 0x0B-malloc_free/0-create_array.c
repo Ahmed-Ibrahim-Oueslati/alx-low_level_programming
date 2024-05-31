@@ -18,6 +18,10 @@ if (size == 0)
 return (NULL);
 }
 p = malloc(size * sizeof(char));
+if (p == NULL)
+{
+printf("something went wrong");
+}
 p[0] = c;
 return (p);
 }
