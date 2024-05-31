@@ -23,7 +23,7 @@ while (str[x] != '\0')
 {
 x++;
 }
-x = x + 1;
+
 
 copy = (char *)malloc(x * sizeof(char));
 
