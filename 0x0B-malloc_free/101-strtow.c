@@ -17,6 +17,7 @@ return ((((NULL))));
 }
 if (wocount == 0)
 {
+printf("Failed");
 return ((((NULL))));
 }
 return ((p));
