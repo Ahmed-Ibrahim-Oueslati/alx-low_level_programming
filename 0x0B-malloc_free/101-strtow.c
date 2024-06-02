@@ -49,7 +49,8 @@ return ((word_count));
 */
 void free_words(char **words, int count)
 {
-for (int i = 0; i < count; i++)
+int i;
+for (i = 0; i < count; i++)
 {
 free(words[i]);
 }
@@ -62,41 +63,46 @@ free(words);
 */
 char **strtow(char *str)
 {
+char **words;
+int  k, w, word_count, word_len;
+char *word;
 if (str == NULL || *str == '\0')
 {
 return ((NULL));
 }
-int word_count = wcount(str);
+word_count = wcount(str);
 if (word_count == 0)
 {
 return ((NULL));
 }
-char **words = loc(word_count);
+words = loc(word_count);
 if (words == NULL)
 {
 return ((NULL));
 }
-int i = 0, k = 0;
-for (int w = 0; w < word_count; w++)
+k = 0;
+for (w = 0; w < word_count; w++)
 {
-while (str[k] == ' ')
+while (str[k] == ' ') /* Find the start of the next word */
 {
 k++;
 }
-int word_len = 0;
+word_len = 0; /* Calculate the length of the word */
 while (str[k + word_len] != ' ' && str[k + word_len] != '\0')
 {
 word_len++;
 }
-words[w] = (char *)malloc((word_len + 1) * sizeof(char));
-if (words[w] == NULL)
+/* Allocate memory for the word and copy it */
+word = (char *)malloc((word_len + 1) * sizeof(char));
+if (word == NULL)
 {
 free_words(words, w);
 return ((NULL));
 }
-strncpy(words[w], &str[k], word_len);
-words[w][word_len] = '\0';
-k += word_len;
+strncpy(word, &str[k], word_len);
+word[word_len] = '\0';
+words[w] = word;
+k += word_len; /* Move to the next word */
 }
 words[word_count] = NULL;
 return ((words));
