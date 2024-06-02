@@ -1,11 +1,11 @@
 #include <stdlib.h>
-#include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
-*loc - Allocate memory for the array of words
-*Return: pointer to an array of words
-*@wocount: nb of words
+* loc - Allocates memory for an array of words.
+* @wocount: Number of words.
+* Return: Pointer to an array of words.
 */
 char **loc(int wocount)
 {
@@ -13,77 +13,91 @@ char **p;
 p = (char **)malloc((wocount + 1) * sizeof(char *));
 if (p == NULL)
 {
-return ((((NULL))));
-}
-if (wocount == 0)
-{
-printf("Failed");
-return ((((NULL))));
+return ((NULL));
 }
 return ((p));
 }
 /**
-*wcount - counts the nb of words in a string
-*@str: string to be count
-*Return: the lenght of the string
+* wcount - Counts the number of words in a string.
+* @str: String to be counted.
+* Return: The number of words in the string.
 */
-int wcount(char *str)
+int wcount(const char *str)
 {
-int word_count, i;
-word_count = 0;
-for (i = 0; str[i] != '\0'; i++)
+int word_count = 0;
+int i = 0;
+int in_word = 0;
+while (str[i] != '\0')
 {
-if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
+if (str[i] != ' ' && !in_word)
 {
+in_word = 1;
 word_count++;
 }
+else if (str[i] == ' ' && in_word)
+{
+in_word = 0;
 }
-return (((word_count)));
+i++;
+}
+return ((word_count));
 }
 /**
-* strtow - Splits a string into words
-* @str: The string to split
-* Return: A pointer to an array of words, or NULL on failure
+* free_words - Frees memory allocated for words.
+* @words: Array of words.
+* @count: Number of words.
+*/
+void free_words(char **words, int count)
+{
+for (int i = 0; i < count; i++)
+{
+free(words[i]);
+}
+free(words);
+}
+/**
+* strtow - Splits a string into words.
+* @str: The string to split.
+* Return: A pointer to an array of words, or NULL on failure.
 */
 char **strtow(char *str)
 {
-char **p;
-int i, j, k, word_count, word_len;
-char *word;
 if (str == NULL || *str == '\0')
 {
-return ((((NULL))));
+return ((NULL));
 }
-word_count = wcount(str);
-p = loc(word_count);
-k = 0;
-for (i = 0; i < word_count; i++)
+int word_count = wcount(str);
+if (word_count == 0)
 {
-while (str[k] == ' ')/* Find the start of the next word */
+return ((NULL));
+}
+char **words = loc(word_count);
+if (words == NULL)
+{
+return ((NULL));
+}
+int i = 0, k = 0;
+for (int w = 0; w < word_count; w++)
+{
+while (str[k] == ' ')
 {
 k++;
 }
-word_len = 0;/* Calculate the length of the word */
+int word_len = 0;
 while (str[k + word_len] != ' ' && str[k + word_len] != '\0')
 {
 word_len++;
 }
-/* Allocate memory for the word and copy it */
-word = (char *)malloc((word_len + 1) * sizeof(char));
-if (word == NULL)
+words[w] = (char *)malloc((word_len + 1) * sizeof(char));
+if (words[w] == NULL)
 {
-for (j = 0; j < i; j++)
-{
-free(p[j]);
+free_words(words, w);
+return ((NULL));
 }
-free(p);
-return ((((NULL))));
+strncpy(words[w], &str[k], word_len);
+words[w][word_len] = '\0';
+k += word_len;
 }
-strncpy(word, &str[k], word_len);
-word[word_len] = '\0';
-p[i] = word;
-k += word_len;/* Move to the next word */
-}
-p[word_count] = NULL;
-return ((((p))));
+words[word_count] = NULL;
+return ((words));
 }
