@@ -48,4 +48,5 @@ p[k++] = '\n'; /* Add a newline after each argument */
 }
 p[k] = '\0'; /* Null-terminate the new string */
 return (p);
+max_len
 }
