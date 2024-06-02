@@ -76,10 +76,6 @@ if (word_count == 0)
 return ((NULL));
 }
 words = loc(word_count);
-if (words == NULL)
-{
-return ((NULL));
-}
 k = 0;
 for (w = 0; w < word_count; w++)
 {
