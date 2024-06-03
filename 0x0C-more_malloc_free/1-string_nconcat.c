@@ -37,8 +37,8 @@ n = j;
 }
 k = n + i + 1;
 p = malloc(sizeof(char) * k);
- if (p == NULL)
-        return (NULL);
+if (p == NULL)
+return (NULL);
 for (l = 0; l < i; l++)
 {
 p[l] = s1[l];
