@@ -8,18 +8,17 @@
  *
  * Return: Always 0 (success).
  */
-int main(int ac ; char **av)
+int main(int ac , char **av)
 {
-        if (argc != 3) {
-        printf("Usage: %s <int1> <int2>\n", argv[0]);
-        return 1;
-    }
+int num1, num2, multi;;
 
-    int num1 = atoi(argv[1]);
-    int num2 = atoi(argv[2]);
-
-    printf("The first integer is: %d\n", num1);
-    printf("The second integer is: %d\n", num2);
-
+if (ac != 3) {
+printf("Error\n");
+exit(98);
+}
+num1 = atoi(av[1]);
+num2 = atoi(av[2]);
+multi = num1 * num2;
+printf("%d\n", multi);
 return (0);
 }
