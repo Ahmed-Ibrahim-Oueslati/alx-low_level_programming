@@ -1,45 +1,90 @@
 #include <stdlib.h>
-#include "main.h"
 #include <stdio.h>
+#include <string.h>
+/**
+* _checker - Checks if the string consists of only digits.
+* @c: The string to check.
+*/
+void _checker(char *c)
+{
+int i;
+for (i = 0; c[i] != '\0'; i++)
+{
+if (c[i] < '0' || c[i] > '9')
+{
+printf("Error2\n");
+exit(98);
+}
+}
+}
 /**
 * main - Entry point of the program.
-*
-* Description: Prints a string to the console.
-*@ac: nb of arguemnts
-*@av: the arguments
-* Return: Always 0 (success).
+* Description: Multiplies two positive integers provided as arguments
+*              and prints the result. Handles errors for invalid arguments
+*              and overflow.
+* @ac: Number of arguments passed to the program.
+* @av: Array of strings containing the arguments.
+* Return: 0 on success, 98 on error.
 */
 int main(int ac, char **av)
 {
-int num1, num2, multi, i;
+char *num1, *num2;
+int len1, len2, len_result, i, j, k, leading_zero;
+int *result;
+char *result_str;
 if (ac != 3)
 {
 printf("Error1\n");
 exit(98);
 }
-i = 0;
-while (av[1][i] != '\0')
+_checker(av[1]);
+_checker(av[2]);
+num1 = av[1];
+num2 = av[2];
+len1 = strlen(num1);
+len2 = strlen(num2);
+len_result = len1 + len2;
+result = calloc(len_result, sizeof(int));
+if (!result)
 {
-if (av[1][i] < '0' || av[1][i] > '9')
-{
-printf("Error2\n");
+printf("Memory allocation error\n");
 exit(98);
 }
-i++;
+for (i = len1 - 1; i >= 0; i--)
+{
+for (j = len2 - 1; j >= 0; j--)
+{
+int mul = (num1[i] - '0') * (num2[j] - '0');
+int p1 = i + j, p2 = i + j + 1;
+int sum = mul + result[p2];
+result[p1] += sum / 10;
+result[p2] = sum % 10;
 }
-i = 0;
-while (av[2][i] != '\0')
+}
+result_str = malloc(len_result + 1);
+if (!result_str)
 {
-if (av[2][i] < '0' || av[2][i] > '9')
-{
-printf("Error3\n");
+free(result);
+printf("Memory allocation error\n");
 exit(98);
 }
-i++;
+k = 0, leading_zero = 1;
+for (i = 0; i < len_result; i++)
+{
+if (leading_zero && result[i] == 0)
+{
+	continue;
 }
-num1 = atoi(av[1]);
-num2 = atoi(av[2]);
-multi = num1 *num2;
-printf("%d\n", multi);
-return (((0)));
+leading_zero = 0;
+result_str[k++] = result[i] + '0';
+}
+if (k == 0)
+{
+	result_str[k++] = '0';
+} /* If result is zero */
+result_str[k] = '\0';
+printf("%s\n", result_str);
+free(result);
+free(result_str);
+return (0);
 }
