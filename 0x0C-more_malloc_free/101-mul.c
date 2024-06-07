@@ -11,7 +11,7 @@ void print_result(char *result_str);
 * @argc: Argument count
 * @argv: Argument vector
 *
-* Return: 0 on success, 1 on failure
+* Return: 0 on success, 98 on failure
 */
 int main(int argc, char **argv)
 {
@@ -19,8 +19,8 @@ char *num1, *num2, *result_str;
 /* Check if the correct number of arguments is provided */
 if (argc != 3)
 {
-printf("Usage: %s <num1> <num2>\n", argv[0]);
-return (1);
+printf("Error\n");
+return (98);
 }
 num1 = argv[1];
 num2 = argv[2];
@@ -47,16 +47,16 @@ for (i = 0; num1[i] != '\0'; i++)
 {
 if (num1[i] < '0' || num1[i] > '9')
 {
-printf("Error: %s is not a valid number\n", num1);
-exit(1);
+printf("Error\n");
+exit(98);
 }
 }
 for (i = 0; num2[i] != '\0'; i++)
 {
 if (num2[i] < '0' || num2[i] > '9')
 {
-printf("Error: %s is not a valid number\n", num2);
-exit(1);
+printf("Error\n");
+exit(98);
 }
 }
 }
@@ -77,8 +77,8 @@ int i, j;
 char *result_str;
 if (!result)
 {
-printf("Memory allocation error\n");
-exit(1);
+printf("Error\n");
+exit(98);
 }
 /* Perform multiplication */
 for (i = len1 - 1; i >= 0; i--)
@@ -113,8 +113,8 @@ int leading_zero = 1;
 char *result_str = malloc(len_result + 1);
 if (!result_str)
 {
-printf("Memory allocation error\n");
-exit(1);
+printf("Error\n");
+exit(98);
 }
 for (i = 0; i < len_result; i++)
 {
