@@ -5,7 +5,7 @@
  * get_op_func- Entry point of the program.
  *
  * Description:  selects the correct function to perform the operation
- *@s: pointer to characther 
+ *@s: pointer to characther
  * Return: pointer to the func
  */
 int (*get_op_func(char *s))(int, int)
