@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include "3-calc.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * get_op_func- Entry point of the program.
  *
@@ -23,7 +22,7 @@ int i;
 i = 0;
 while (i < 5)
 {
-if (strcmp(ops[i].op, s) == 0)
+if (ops[i].op == s)
 {
 return (ops[i].f);
 }

@@ -38,7 +38,7 @@ exit(100);
 res = get_op_func(operator);
 if (res == NULL)
 {
-printf("Error\n");
+printf("Error2\n");
 return (99);
 }
 resl = res(num1, num2);
