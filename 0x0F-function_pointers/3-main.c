@@ -22,8 +22,6 @@ exit(98);
 num1 = atoi(av[1]);
 num2 = atoi(av[3]);
 operator = av[2];
-
-
 res = get_op_func(operator);
 if (!res)
 {
