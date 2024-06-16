@@ -11,7 +11,7 @@
  */
 int main(int ac, char **av)
 {
-int num1, num2, resl;
+int num1, num2;
 char *operator;
 int (*res)(int, int);
 if (ac != 4)
@@ -36,12 +36,6 @@ exit(100);
 
 
 res = get_op_func(operator);
-if (res == NULL)
-{
-printf("Error2\n");
-return (99);
-}
-resl = res(num1, num2);
-printf("%d\n", resl);
+printf("%d\n",res(num1, num2));
 return (0);
 }
