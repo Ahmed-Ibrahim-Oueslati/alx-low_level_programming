@@ -23,9 +23,9 @@ if (atoi(av[1]) < 0)
 printf("Error\n");
 exit(2);
 }
-  main_ptr = (unsigned char *)main;
+main_ptr = (unsigned char *)main;
 
- num_bytes = atoi(av[1]);
+num_bytes = atoi(av[1]);
 for (i = 0; i < num_bytes; i++)
 {
 printf("%02x", main_ptr[i]);
