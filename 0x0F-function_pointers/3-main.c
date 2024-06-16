@@ -16,7 +16,7 @@ char *operator;
 int (*res)(int, int);
 if (ac != 4)
 {
-printf("Error1\n");
+printf("Error\n");
 exit(98);
 }
 num1 = atoi(av[1]);
@@ -25,12 +25,12 @@ operator = av[2];
 if (*operator != '+' && *operator != '-' &&
 *operator != '*' && *operator != '/' && *operator != '%')
 {
-printf("Error2\n");
+printf("Error\n");
 exit(99);
 }
 if ((*operator == '/' || *operator == '%') && (num1 == 0 || num2 == 0))
 {
-printf("Error3\n");
+printf("Error\n");
 exit(100);
 }
 
@@ -38,7 +38,7 @@ exit(100);
 res = get_op_func(operator);
 if (res == NULL)
 {
-printf("Error4\n");
+printf("Error\n");
 return (99);
 }
 resl = res(num1, num2);
