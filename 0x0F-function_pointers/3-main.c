@@ -24,11 +24,6 @@ num2 = atoi(av[3]);
 operator = av[2];
 
 
-if ((*operator == '/' || *operator == '%') && (num1 == 0 || num2 == 0))
-{
-printf("Error\n");
-exit(100);
-}
 res = get_op_func(operator);
 if (!res)
 {

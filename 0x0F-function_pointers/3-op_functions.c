@@ -1,91 +1,75 @@
+#include "3-calc.h"
 #include <stdlib.h>
-#include "main.h"
 #include <stdio.h>
+
 /**
- * op_add - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *@a: first int
- *@b: second int
- * Return: Always 0 (success).
- */
+  * op_add - ...
+  * @a: ...
+  * @b: ...
+  *
+  * Return: ...
+  */
 int op_add(int a, int b)
 {
-int sum;
-sum = a + b;
-return (sum);
+	return (a + b);
 }
 
-
-
-
 /**
- * op_sub - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *@a: first int
- *@b: second int
- * Return: Always 0 (success).
- */
+  * op_sub - ...
+  * @a: ...
+  * @b: ...
+  *
+  * Return: ...
+  */
 int op_sub(int a, int b)
 {
-int dif;
-dif = a - b;
-return (dif);
+	return (a - b);
 }
 
-
-
-
-
 /**
- * op_mul - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *@a: first int
- *@b: second int
- * Return: Always 0 (success).
- */
+  * op_mul - ...
+  * @a: ...
+  * @b: ...
+  *
+  * Return: ...
+  */
 int op_mul(int a, int b)
 {
-int mul;
-mul = a * b;
-return (mul);
+	return (a * b);
 }
 
-
-
-
 /**
- * op_div - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *@a: first int
- *@b: second int
- * Return: Always 0 (success).
- */
+  * op_div - ...
+  * @a: ...
+  * @b: ...
+  *
+  * Return: ...
+  */
 int op_div(int a, int b)
 {
-int div;
-div = a / b;
-return (div);
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	return (a / b);
 }
-
-
 
 /**
- * op_mod - Entry point of the program.
- *
- * Description: Prints a string to the console.
- *@a: first int
- *@b: second int
- * Return: Always 0 (success).
- */
+  * op_mod - ...
+  * @a: ...
+  * @b: ...
+  *
+  * Return: ...
+  */
 int op_mod(int a, int b)
 {
-int mod;
-mod = a % b;
-return (mod);
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	return (a % b);
 }
-
-
