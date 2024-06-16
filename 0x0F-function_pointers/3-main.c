@@ -41,7 +41,7 @@ if (res == NULL)
 printf("Error4\n");
 return (99);
 }
-resl = op_add(num1, num2);
+resl = res(num1, num2);
 printf("%d\n", resl);
 return (0);
 }
