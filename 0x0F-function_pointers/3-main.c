@@ -36,6 +36,6 @@ exit(100);
 
 
 res = get_op_func(operator);
-printf("%d\n",res(num1, num2));
+printf("%d\n", res(num1, num2));
 return (0);
 }
