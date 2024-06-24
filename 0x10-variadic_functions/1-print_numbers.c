@@ -14,7 +14,8 @@ va_list ap;
 unsigned int i;
 
 
-
+if (n != 0)
+{
 va_start(ap, n);
 
 for (i = 0; i < n; i++)
@@ -36,4 +37,5 @@ va_end(ap);
 
 putchar('\n');
 
+}
 }
