@@ -30,7 +30,6 @@ if (separator == NULL || i == n - 1)
 {
 	printf("%d", va_arg(ap, int));
 }
-count++;
 }
 
 va_end(ap);
