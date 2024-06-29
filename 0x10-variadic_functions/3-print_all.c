@@ -1,5 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
+#include "variadic_functions.h"
 
 /**
 * print_all - Prints various types of arguments based on a format string.
