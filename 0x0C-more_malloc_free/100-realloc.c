@@ -18,7 +18,7 @@ if (new_size == old_size)
 }
 /* If the pointer is NULL, allocate new memory */
 if (ptr == NULL)
-{
+{ 
 p = malloc(new_size);
 if (p == NULL)
 {

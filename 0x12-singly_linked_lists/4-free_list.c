@@ -1,20 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 #include "lists.h"
-#include <stdlib.h>
-
 /**
- * free_list - frees a list
- * @head: head node
- * Return: void
- */
+ * free_list - a function that frees a list
+ * @head : input value
+*/
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *l;
 
 	while (head)
 	{
-		temp = head;
-		head = head->next;
-		free(temp->str);
-		free(temp);
+		l = head->next;
+		free(head->str);
+		free(head);
+		head = l;
 	}
 }
