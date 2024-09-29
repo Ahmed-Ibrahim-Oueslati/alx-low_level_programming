@@ -69,7 +69,7 @@ void extract_and_print_fields(const char *filename) {
 
 int main() {
     // File containing the data to extract
-    const char *filename = "extract_hat";
+    const char *filename = "text_file";
 
     // Extract fields and print in the specified format
     extract_and_print_fields(filename);

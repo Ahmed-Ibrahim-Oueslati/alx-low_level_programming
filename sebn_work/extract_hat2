@@ -1,0 +1,2559 @@
+ 
+Appliance configuration: user group
+Appliance configuration objects
+user and group object class (aaa)
+user group object type (group)
+    user group object "Remote access Computer Sharing Bucuresti S.R.L" (REF_AaaGroRemotAccesCompu)
+        name (name) = Remote access Computer Sharing Bucuresti S.R.L
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Adelina.Ungureanu"
+            user object "Ext.Mihai.Safciu"
+            user object "Ext.Monica.Falamas"
+            user object "Ext.Raluca.Vlasceanu" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access LLC Voloshyn only for One server" (REF_AaaGroRemotAccesLlc3)
+        name (name) = Remote Access LLC Voloshyn only for One server
+        group type (dynamic) = none
+        static members (members)
+            user object "oksana.shozda" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access CONTEC (Ciudad Juarez)" (REF_AaaGroRemotAccesConte)
+        name (name) = Remote Access CONTEC (Ciudad Juarez)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Alexis.Sato" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access SVA System Vertrieb Alexander GmbH" (REF_AaaGroRemotAccesSva)
+        name (name) = Remote Access SVA System Vertrieb Alexander GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Daniel.Neumann"
+            user object "Ext.Huettmann.Karsten"
+            user object "Ext.Kerstin.Stahl"
+            user object "Ext.Kevin.Gora"
+            user object "Ext.Michael.Sedderz"
+            user object "Ext.Peter.Kiene"
+            user object "Ext.Tobias.Maurer" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Przyborski Consulting (Gorzów)" (REF_AaaGroRemotAccesPrzyb)
+        name (name) = Remote Access Przyborski Consulting (Gorzów)
+        group type (dynamic) = none
+        static members (members)
+            user object "lubomir.przyborski" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Ext_2Fa_VPN" (REF_AaaGroExt2favpn)
+        name (name) = Ext_2Fa_VPN
+        group type (dynamic) = none
+        static members (members)
+            user object "andreas.lange"
+            user object "christian.koenig"
+            user object "dirk.schittko"
+            user object "Ext.Abdelkrim.Bahji"
+            user object "Ext.Adelina.Ungureanu"
+            user object "Ext.Ahmet.Buyuktosun"
+            user object "Ext.Alberto.Ricon"
+            user object "Ext.Alexander.Bittner"
+            user object "Ext.Alexander.Wegner"
+            user object "Ext.Alexandru.Manole"
+            user object "Ext.Ana.Barros"
+            user object "Ext.Ana.Stefanescu"
+            user object "ext.Andreas.Bitzi"
+            user object "Ext.Andreas.Kellerer"
+            user object "Ext.Andreas.Rahe"
+            user object "Ext.Anelis.Danila"
+            user object "Ext.Angela.Ludwig"
+            user object "Ext.Annuschka.Korn"
+            user object "Ext.Ata.Nik"
+            user object "Ext.Atanas.Nikolov"
+            user object "Ext.Augusto.Toledo"
+            user object "Ext.Ayaka.Taniguchi"
+            user object "Ext.Aymen.Mouelhi"
+            user object "Ext.Baiker.Thierry"
+            user object "Ext.Berndt.Kruppa"
+            user object "Ext.Bettina.Wendt"
+            user object "Ext.Birgit.Stemmer"
+            user object "Ext.Blanka.Holubova"
+            user object "Ext.Boris.Kopp"
+            user object "Ext.Carlota.Ramos"
+            user object "Ext.Carsten.Loeher"
+            user object "Ext.Cosmin.Tarasie"
+            user object "Ext.Cristina.Cristea"
+            user object "Ext.Cristobal.Gonzalez"
+            user object "Ext.Damaris.Dragomir"
+            user object "Ext.Danail.Vasilev"
+            user object "Ext.Daniel.Rojano"
+            user object "Ext.Deniz.Selen"
+            user object "Ext.Detlef.Storms"
+            user object "Ext.Dieter.Strutzenberger"
+            user object "Ext.Dominic.Ludolph"
+            user object "Ext.Erdogan.Akkay"
+            user object "Ext.Eric.Kalonda"
+            user object "Ext.erick.gutierrez"
+            user object "Ext.Fatih.Unal"
+            user object "Ext.Federico.Dimas"
+            user object "Ext.Federico.Flores"
+            user object "Ext.Florian.Heiss"
+            user object "Ext.Florian.Kromat"
+            user object "Ext.Florian.Schuepfer"
+            user object "Ext.Frank.Renner"
+            user object "Ext.Frank.Schneider"
+            user object "Ext.Gleb.Anisimov"
+            user object "Ext.Hakan.Yilmaz"
+            user object "ext.Hans.Buholzer"
+            user object "Ext.Hasan.Dulger"
+            user object "Ext.Holger.Lokstaedt"
+            user object "Ext.Huettmann.Karsten"
+            user object "Ext.Igor.Milly"
+            user object "Ext.Inetum.Maroc"
+            user object "Ext.Ioan.Zahorecz"
+            user object "Ext.Ismail.Vurel"
+            user object "Ext.Jakub.Kmet"
+            user object "Ext.Jan.Henseler"
+            user object "Ext.Janine.Schneider"
+            user object "Ext.Joachim.Bartsch"
+            user object "Ext.Johann.Haberstoc"
+            user object "Ext.Johannes.Fischer"
+            user object "Ext.Juan.Sanchez"
+            user object "Ext.Kaouther.Khalil"
+            user object "Ext.Kerstin.Blankenburg"
+            user object "Ext.Kevin.Gora"
+            user object "Ext.Kufferath.Gmbh"
+            user object "Ext.Kuhlmann.Robert"
+            user object "Ext.Le.Wan"
+            user object "Ext.Lisa.Heim"
+            user object "Ext.Lukas.Sejba"
+            user object "Ext.Mahmoud.Saanouni"
+            user object "Ext.Maksym.Belyakov"
+            user object "Ext.Manuel.Steiner"
+            user object "Ext.Marco.Tobias"
+            user object "Ext.Maria.Latysheva"
+            user object "Ext.Marius.Pripas"
+            user object "Ext.Markus.Hofknecht"
+            user object "Ext.Martin.Drab"
+            user object "Ext.Martin.Schneider"
+            user object "Ext.Martin.Siller"
+            user object "Ext.Martin.Zuerker"
+            user object "Ext.Menzer.Johannes"
+            user object "Ext.Michael.Sinner"
+            user object "Ext.Michael.Steinbuc"
+            user object "Ext.Michael.Wuerzburger"
+            user object "Ext.Michal.Biernat"
+            user object "Ext.Mihai.Safciu"
+            user object "Ext.Monica.Falamas"
+            user object "Ext.Morlang.Roman"
+            user object "Ext.Mustafa.Darabi"
+            user object "Ext.Mykola.Shparuk"
+            user object "Ext.Naveen.Chamala"
+            user object "Ext.Nedzhmetin.Kandz"
+            user object "Ext.Nikoleta.Dimitrova"
+            user object "Ext.Oleksandr.Shandruk"
+            user object "Ext.Paul.Gebel"
+            user object "Ext.Philipp.Bielefel"
+            user object "Ext.Pilar.Villalta"
+            user object "Ext.Rainer.Kellas"
+            user object "Ext.Raluca.Vlasceanu"
+            user object "Ext.Rebecca.Kube"
+            user object "Ext.Rosca.Radu"
+            user object "ext.sachinreddy.govi"
+            user object "Ext.Salih.Yildiz"
+            user object "Ext.Sarah.Leu"
+            user object "Ext.Sebastian.Kestler"
+            user object "Ext.Sebastian.Schwar"
+            user object "Ext.Sepelenco.Olga"
+            user object "Ext.Serghei.Curdoglo"
+            user object "ext.Simon.Birrer"
+            user object "Ext.Soeren.Jentzsch"
+            user object "Ext.Sonja.Skalnik"
+            user object "Ext.Stefan.Panick"
+            user object "Ext.Stephan.Arendt"
+            user object "Ext.Stephan.Kerber"
+            user object "Ext.Stm.Stm"
+            user object "Ext.Stoyan.Valev"
+            user object "Ext.Tabea.Machtel"
+            user object "Ext.Tanja.Ritter"
+            user object "Ext.Tekin.Celik"
+            user object "Ext.Thomas.Schneider"
+            user object "Ext.Ulf.Schmalfuss"
+            user object "Ext.Vagish.Venkatara"
+            user object "Ext.Violetta.Andrusy"
+            user object "Ext.Vitor.Santos"
+            user object "Ext.Zbynek.Sailer"
+            user object "Ext.Zohre.Mihaylova"
+            user object "fernando.silva"
+            user object "haddadi.mohammed"
+            user object "Lina.Ershova"
+            user object "lukasz.kaczynski"
+            user object "maksym.buzenko"
+            user object "mohamed.beltaief"
+            user object "oksana.shozda"
+            user object "Tatyana.Fokina"
+            user object "Viktoriya.Dnes"
+            user object "wais.darwish"
+            user object "Wilfried.Weyrauch" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access FOP Shparuk M.O. (SEBN UA)" (REF_AaaGroRemotAccesFop)
+        name (name) = Remote Access FOP Shparuk M.O. (SEBN UA)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Mykola.Shparuk" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_DiiT" (REF_AaaGroRemoteacce5)
+        name (name) = Remote_Access_SSL_DiiT
+        group type (dynamic) = none
+        static members (members)
+            user object "andreas.lange"
+            user object "christian.koenig"
+            user object "dic12ons"
+            user object "Ext.Ahmet.Buyuktosun"
+            user object "Ext.Alberto.Ricon"
+            user object "Ext.Augusto.Toledo"
+            user object "Ext.Bettina.Wendt"
+            user object "Ext.Cosmin.Tarasie"
+            user object "Ext.Damaris.Dragomir"
+            user object "Ext.Florian.Kromat"
+            user object "Ext.Markus.Hofknecht"
+            user object "Ext.Martin.Siller"
+            user object "Ext.Sebastian.Schwar"
+            user object "Ext.Stefan.Panick" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access H. Kufferath GmbH (Moers-Genend)" (REF_AaaGroRemotAccesH)
+        name (name) = Remote Access H. Kufferath GmbH (Moers-Genend)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Kufferath.Gmbh" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access RON Software sro (Karviná-Hranice) CZ" (REF_AaaGroRemotAccesRon)
+        name (name) = Remote Access RON Software sro (Karviná-Hranice) CZ
+        group type (dynamic) = none
+        static members (members)
+            user object "michal.kuhtreiber" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "ACC SSO Admin Users" (REF_AaaGroAccSsoAdmin)
+        name (name) = ACC SSO Admin Users
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Voloshyn Support 1C system" (REF_AaaGroRemotAccesVolos)
+        name (name) = Remote Access Voloshyn Support 1C system
+        group type (dynamic) = none
+        static members (members)
+            user object "maksym.buzenko"
+            user object "volodymyr.bychynsky" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "remote access Federico Flores Dimas" (REF_AaaGroRemotAccesFeder)
+        name (name) = remote access Federico Flores Dimas
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Federico.Dimas"
+            user object "Ext.Federico.Flores" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Inetum Tunisia" (REF_AaaGroRemotAccesInetu)
+        name (name) = Remote Access Inetum Tunisia
+        group type (dynamic) = none
+        static members (members)
+            user object "ayoub.benjemia"
+            user object "emna.khmissi"
+            user object "Ext.Aymen.Mouelhi"
+            user object "Ext.Kaouther.Khalil"
+            user object "ons.mansouri"
+            user object "samar.medini" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Fidel Grup SRL (Tighina)" (REF_AaaGroRemotAccesFidel)
+        name (name) = Remote Access Fidel Grup SRL (Tighina)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_Users" (REF_wStxIBguWW)
+        name (name) = Remote_Access_Users
+        group type (dynamic) = none
+        static members (members)
+            user object "abigail.noain"
+            user object "ach01ste"
+            user object "adina.bebec"
+            user object "admin"
+            user object "adrian.bednarczyk"
+            user object "Aina.Garcia"
+            user object "akr02gha"
+            user object "ale04dem"
+            user object "ale06mas"
+            user object "ale08geb"
+            user object "ale09bra"
+            user object "ale09buh"
+            user object "ale09oll"
+            user object "alexander.fischer"
+            user object "alexander.grimm"
+            user object "alexander.nass"
+            user object "alf07agu"
+            user object "Alvaro.Merino"
+            user object "ana.lajusticia"
+            user object "anatoli.todorov"
+            user object "and01sus"
+            user object "and05fri"
+            user object "and09bue"
+            user object "and09sha"
+            user object "and11mac"
+            user object "andoni.andueza"
+            user object "andre.dykierek"
+            user object "Andre.Francischinelli"
+            user object "andreas.laessig"
+            user object "andrey.levanov"
+            user object "Andriy.Petryk"
+            user object "aneliya.kurteva"
+            user object "ann01swi"
+            user object "ann10nah"
+            user object "annalena.gebauer"
+            user object "ant03vel"
+            user object "antje.maasjost"
+            user object "Anton.Ivanov"
+            user object "arn06sch"
+            user object "art01kac"
+            user object "art09per"
+            user object "artyom.belikov"
+            user object "ate01fer"
+            user object "axe05ner"
+            user object "Axel.Strehlitz"
+            user object "aziz.elghoribi"
+            user object "bab02kru"
+            user object "bae03rue"
+            user object "bar04jan"
+            user object "bea02bar"
+            user object "bea06sta"
+            user object "beata.lavrincova"
+            user object "bel02aya"
+            user object "Ber12Bar"
+            user object "ber12kas"
+            user object "bjo06ker"
+            user object "bjoern.ermel"
+            user object "boh08kom"
+            user object "Burkhard.Gesenhues"
+            user object "cai02sun"
+            user object "car06boe"
+            user object "car06san"
+            user object "car07sch"
+            user object "car09jun"
+            user object "car09sch"
+            user object "carsten.ciecior"
+            user object "CC_Bruxelles"
+            user object "chr03wol"
+            user object "chr06fis"
+            user object "chr06mei"
+            user object "chr07fis"
+            user object "chr07ryb"
+            user object "chr11sch"
+            user object "christian.reinsch"
+            user object "corinna.heine"
+            user object "dam02kam"
+            user object "dan05kie"
+            user object "daniel.silhan"
+            user object "Daniela.Matthies"
+            user object "David.Belinchon"
+            user object "David.Mueller"
+            user object "daw04min"
+            user object "dia11sch"
+            user object "diego.coello"
+            user object "dir03sch"
+            user object "dir10hoc"
+            user object "dirk.koebis"
+            user object "djavit.oranoski"
+            user object "dkamaletdinov"
+            user object "dobrowolski"
+            user object "Dominik.Schulz"
+            user object "Donata.Urbanavice"
+            user object "dor01nef"
+            user object "dzieniewicz"
+            user object "eduardo.moreno"
+            user object "edw05kru"
+            user object "ekk06jab"
+            user object "ele10ski"
+            user object "elena.castiella"
+            user object "Elena.Pencheva"
+            user object "elena.valterova"
+            user object "eli11gra"
+            user object "eri05the"
+            user object "ernst.roepke"
+            user object "erw11nag"
+            user object "Estibaliz.Larrayoz"
+            user object "eva.schwinzer"
+            user object "ewa04sma"
+            user object "Fabian.Klauke"
+            user object "far05jed"
+            user object "fdzieniewicz"
+            user object "filip.koten"
+            user object "filip.slomian"
+            user object "fra05ste"
+            user object "fra06von"
+            user object "fra06weg"
+            user object "Fra12Kla"
+            user object "Francisco.Garcia"
+            user object "frank.karge"
+            user object "frank.nendse"
+            user object "froydis.somdalen"
+            user object "gab03pau"
+            user object "Gema.Saiz"
+            user object "georgi.georgiev"
+            user object "Ger12Mac"
+            user object "gergana.todorova"
+            user object "gra09abr"
+            user object "gre04mur"
+            user object "grz03mil"
+            user object "gua02lop"
+            user object "Gue12Ste"
+            user object "guillermo.arana"
+            user object "gul05tat"
+            user object "har04ric"
+            user object "hartmut.wuest"
+            user object "hat11ayh"
+            user object "hau06rat"
+            user object "hei11roe"
+            user object "hei11wat"
+            user object "hel02kle"
+            user object "helena.holasova"
+            user object "hen06bie"
+            user object "hen07hag"
+            user object "hol07sch"
+            user object "hol11kue"
+            user object "hub05pel"
+            user object "igor.szarka"
+            user object "Inaki.Arriaga"
+            user object "inaki.velez"
+            user object "ine07sch"
+            user object "ines.taeger"
+            user object "inessa.morgunjenko"
+            user object "inigo.vega"
+            user object "ire06dok"
+            user object "ivana.bartosova"
+            user object "iveta.jankovicova"
+            user object "jac06bug"
+            user object "jac11kae"
+            user object "jan.drapak"
+            user object "jan.pastiak"
+            user object "jan.sauer"
+            user object "Jaqueline.Dulce"
+            user object "jar04kor"
+            user object "jar09lan"
+            user object "jasmin.kusche"
+            user object "jav06vir"
+            user object "Javier.Garcia"
+            user object "jeannette.strohmeyer"
+            user object "jen03jae"
+            user object "jen09kut"
+            user object "jens.meyer"
+            user object "Jesus.Alcarria"
+            user object "jesus.roldan"
+            user object "jia07wan"
+            user object "jir02dra"
+            user object "jir02sny"
+            user object "jir10pok"
+            user object "joa01sni"
+            user object "joa10rol"
+            user object "joan.delgado"
+            user object "Joan.Rubio"
+            user object "joanna.kubejko"
+            user object "jobst.brand"
+            user object "joe05rit"
+            user object "joe07sch"
+            user object "joh06dic"
+            user object "jonathan.sanchez"
+            user object "jos04gib"
+            user object "jose.cachairo"
+            user object "Jose.Gomez"
+            user object "joseantonio.pascual"
+            user object "jua02li"
+            user object "Juan.Lopez"
+            user object "juan.mendia"
+            user object "juergen.moosmann"
+            user object "jul03bec"
+            user object "jul11sch"
+            user object "julen.lecumberri"
+            user object "kai02huh"
+            user object "kai06ruh"
+            user object "kam11dej"
+            user object "kar01kra"
+            user object "kar07her"
+            user object "kat03jah"
+            user object "kat11bae"
+            user object "kat11szi"
+            user object "kat11tot"
+            user object "katharina.duda"
+            user object "kim.buchstab"
+            user object "kla07har"
+            user object "kle05gro"
+            user object "knopik"
+            user object "kristyna.lanska"
+            user object "krz10sta"
+            user object "krzysztof.kedzierski"
+            user object "lars.hennig"
+            user object "Lucia.Munoz"
+            user object "lud05bra"
+            user object "luis-miguel.migueles"
+            user object "luis.carreto"
+            user object "luk03pol"
+            user object "luk04kom"
+            user object "maciej.radzio"
+            user object "maciej.zawadzki"
+            user object "maider.camacho"
+            user object "Maite.Urteaga"
+            user object "mal12ram"
+            user object "man05sch"
+            user object "mar02hel"
+            user object "mar02kne"
+            user object "mar02sch"
+            user object "mar02zwo"
+            user object "mar03syd"
+            user object "mar04nov"
+            user object "mar04sud"
+            user object "mar05kop"
+            user object "mar05ste"
+            user object "mar05tsc"
+            user object "mar05web"
+            user object "mar06eck"
+            user object "mar06gab"
+            user object "mar06hus"
+            user object "mar06pei"
+            user object "mar08wac"
+            user object "mar09hol"
+            user object "mar10nov"
+            user object "mar11zaw"
+            user object "mar12ihl"
+            user object "mar12stu"
+            user object "mar12web"
+            user object "mar12weg"
+            user object "marco.preim"
+            user object "marek.dlouhy"
+            user object "marek.fridrich"
+            user object "maria.skalicanova"
+            user object "mariusz.kuzbinski"
+            user object "mariyana.simeonova"
+            user object "marko.hajostek"
+            user object "markus.habig"
+            user object "markus.stroebel"
+            user object "Marta.Delburgo"
+            user object "marta.wawrzaszek"
+            user object "martin.hudak"
+            user object "Maryana.Slobodyanyuk"
+            user object "maximilian.poelzig"
+            user object "medzhnun.mehmed"
+            user object "metin.ismail"
+            user object "mic01bac"
+            user object "mic03jas"
+            user object "mic04han"
+            user object "mic04roz"
+            user object "mic04sch"
+            user object "mic06fri"
+            user object "mic06klo"
+            user object "mic07gut"
+            user object "mic07hop"
+            user object "mic07noe"
+            user object "mic08ren"
+            user object "mic10haa"
+            user object "mic12str"
+            user object "michael.joens"
+            user object "michael.weber"
+            user object "michal.jasinski"
+            user object "michal.matlegiewicz"
+            user object "mig04san"
+            user object "mih10rog"
+            user object "mir02hal"
+            user object "mitko.angelov"
+            user object "monika.suskova"
+            user object "mouhyi.mimoun"
+            user object "n.wagner-cherlenyak"
+            user object "nadine.berlejung"
+            user object "nec05bil"
+            user object "nicole.brinkhaus"
+            user object "Nicole.Lucero"
+            user object "Nils.Finke"
+            user object "nina.schindelar"
+            user object "nur08ram"
+            user object "Nurten.Ozer"
+            user object "ola04ulr"
+            user object "Ola12Esc"
+            user object "oleksandr.vasylyuk"
+            user object "olg09ant"
+            user object "oli09hof"
+            user object "oli11wei"
+            user object "oscar.nagore"
+            user object "ott11moe"
+            user object "Ott12Fru"
+            user object "patrick.wiecki"
+            user object "pau02wac"
+            user object "Paul.Maus"
+            user object "pav11hna"
+            user object "paw04fig"
+            user object "paw04sob"
+            user object "pen02yu"
+            user object "pet01gra"
+            user object "pet02ben"
+            user object "pet07hoe"
+            user object "pet07sta"
+            user object "peter.ostermann"
+            user object "pio04dzi"
+            user object "pio10wal"
+            user object "premysl.tvrznik"
+            user object "raik.erdmann"
+            user object "ral02bel"
+            user object "ral03jun"
+            user object "ral05fuh"
+            user object "ralf.mueller"
+            user object "ram03lop"
+            user object "ras04sus"
+            user object "Raul.Alvarez"
+            user object "Razvan.Jude"
+            user object "reb06lom"
+            user object "reinhard.kammerer"
+            user object "ric11fek"
+            user object "rob01rex"
+            user object "rol09bei"
+            user object "rom03kra"
+            user object "ronald.grzenda"
+            user object "Ruben.Nielfa"
+            user object "ruddy.guerrero"
+            user object "rue11ren"
+            user object "S.Strauss-Davidek"
+            user object "sabine.hoppe"
+            user object "sanchez"
+            user object "sas10sim"
+            user object "ser08zal"
+            user object "shan.han"
+            user object "siegfried.laessig"
+            user object "sil08boe"
+            user object "ste09bau"
+            user object "ste11mil"
+            user object "stefan.hedemann"
+            user object "stefanie.meyer"
+            user object "stefanie.thomas"
+            user object "steffen.wotzlaw"
+            user object "stephanie.buchholz"
+            user object "suner.ali"
+            user object "sus04lud"
+            user object "Suzana.Koleva"
+            user object "sve08wie"
+            user object "sven.rasche"
+            user object "tak02tat"
+            user object "tat04hud"
+            user object "tetiana.borovska"
+            user object "thilo.solbrig"
+            user object "tho02lip"
+            user object "tho06zan"
+            user object "tho07beh"
+            user object "tho07rau"
+            user object "thomas.becker"
+            user object "tim01boe"
+            user object "tim05kra"
+            user object "tim06kra"
+            user object "tim07spa"
+            user object "tob03kru"
+            user object "tomas.pigl"
+            user object "tor01mut"
+            user object "Tor12Fos"
+            user object "ulr02bos"
+            user object "ulr07sch"
+            user object "ulr10cla"
+            user object "Ute12Dit"
+            user object "uwe01lae"
+            user object "uwe02mie"
+            user object "uwe09nie"
+            user object "uxua.larrondo"
+            user object "vei03jan"
+            user object "veselin.stefanov"
+            user object "vik05hel"
+            user object "vikram.kasinathan"
+            user object "vla07chu"
+            user object "vla11ste"
+            user object "vladimir.ugarov"
+            user object "vol12tan"
+            user object "Vural.Seyis"
+            user object "wal01kol"
+            user object "wal09wer"
+            user object "Waldemar.Schweiz"
+            user object "wil11jan"
+            user object "wladyslaw.urbanowicz"
+            user object "wol05wag"
+            user object "xaver.wick"
+            user object "Xavier.Climent"
+            user object "Xavier.Galicia"
+            user object "xin06han"
+            user object "yas03hat"
+            user object "yovelina.kostova"
+            user object "yun11xu0"
+            user object "Yvonne.Balzer"
+            user object "zainab.makray"
+            user object "zbi01lub" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Cistec Espania (Nagios)" (REF_AaaGroRemotAccesCiste)
+        name (name) = Remote Access Cistec Espania (Nagios)
+        group type (dynamic) = none
+        static members (members)
+            user object "david.murillo"
+            user object "luigi.guarino" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Location: S.P.O.-SOFT EDV Beratung" (REF_AaaGroRemotAccesLocat)
+        name (name) = Remote Access Location: S.P.O.-SOFT EDV Beratung
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Klaus.Kano" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Ulf Schmalfuss (Germany)" (REF_AaaGroRemotAccesUlf)
+        name (name) = Remote Access Ulf Schmalfuss (Germany)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access BMSys Bulgaria (Karnobat)" (REF_AaaGroRemotAccesBmsys)
+        name (name) = Remote Access BMSys Bulgaria (Karnobat)
+        group type (dynamic) = none
+        static members (members)
+            user object "zhivko.velev" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access CASE Tunisia" (REF_AaaGroRemotAccesCase)
+        name (name) = Remote Access CASE Tunisia
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Ahmed.Habbachi"
+            user object "Ext.Atef.Attia"
+            user object "Ext.Mohamed.Chelly" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "SUM SSO Admin Users" (REF_AaaGroSumSsoAdmin)
+        name (name) = SUM SSO Admin Users
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_FIT External company" (REF_AaaGroRemotExterCompa)
+        name (name) = Remote_Access_SSL_FIT External company
+        group type (dynamic) = none
+        static members (members)
+            user object "haddadi.mohammed" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access MEXabat (Puebla)" (REF_AaaGroRemotAccesMexab)
+        name (name) = Remote Access MEXabat (Puebla)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Cristobal.Gonzalez" 
+            user object "Ext.Daniel.Rojano"
+            user object "Ext.erick.gutierrez"
+            user object "Ext.Rainer.Kellas" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Nitra_Remote_Access_Users" (REF_AaaGroNitraremot)
+        name (name) = Nitra_Remote_Access_Users
+        group type (dynamic) = none
+        static members (members)
+            user object "Adela.Galova"
+            user object "adrian.becka"
+            user object "adriana.galisova"
+            user object "adriana.gregusova"
+            user object "Alena.Wurczelova"
+            user object "alexandra.jancichova"
+            user object "Alvaro.Rodriguez"
+            user object "alzbeta.zuchova"
+            user object "andrea.vargova"
+            user object "angelika.grediova"
+            user object "Balazs.Meszaros"
+            user object "beata.obertova"
+            user object "dalibor.valentiny"
+            user object "Dan.Barna"
+            user object "dana.trckova"
+            user object "daniel.torac"
+            user object "Daniel.Urricelqui"
+            user object "daniela.gubova"
+            user object "dasa.nemcekova"
+            user object "David.Nagy"
+            user object "David.Suranyi"
+            user object "diana.pflegerova"
+            user object "dusan.luchava"
+            user object "ema.senesova"
+            user object "erich.durgut"
+            user object "ervin.ivanics"
+            user object "eva.luknisova"
+            user object "frantisek.cagala"
+            user object "frantisek.konecny"
+            user object "gabriel.rabek"
+            user object "henrich.filo"
+            user object "igor.kuruc"
+            user object "Igor.Svec"
+            user object "ingrid.lubinova"
+            user object "Iryna.Stefanyshyn"
+            user object "ivan.nosal"
+            user object "ivan.varga"
+            user object "ivan.vavrovic"
+            user object "jan.hruby"
+            user object "jan.kovac"
+            user object "Jan.Podhorec"
+            user object "jan.siska"
+            user object "jana.blaziova"
+            user object "jana.havaldova"
+            user object "jana.knezlova"
+            user object "Jana.Kovacova"
+            user object "jana.mikova"
+            user object "jana.presinska"
+            user object "jana.selcova"
+            user object "janka.bacskorova"
+            user object "jaroslav.horvath"
+            user object "jaroslav.ruska"
+            user object "jozef.czako"
+            user object "jozef.maga"
+            user object "jozef.vagai"
+            user object "juraj.kabat"
+            user object "Juraj.Kollar"
+            user object "juraj.kovac"
+            user object "juraj.mistrik"
+            user object "Juraj.Pataky"
+            user object "juraj.puzlik"
+            user object "juraj.sklenar"
+            user object "juraj.wurczel"
+            user object "Karol.Szoke"
+            user object "Kevin.Cetenyi"
+            user object "kristina.haverova"
+            user object "lenka.dezoova"
+            user object "Lenka.Jasickova"
+            user object "lubica.beckova"
+            user object "lubica.bizonova"
+            user object "lubomir.vano"
+            user object "lubos.bartak"
+            user object "lubos.stranovsky"
+            user object "lucia.lacenova"
+            user object "lukas.havlas"
+            user object "M.Haidamakha"
+            user object "Magdalena.Burianova"
+            user object "marcel.horvath"
+            user object "marek.blasko"
+            user object "marek.bus"
+            user object "marek.janicek"
+            user object "marek.janik"
+            user object "marek.pastier"
+            user object "Marek.Pirsel"
+            user object "marek.ropjak"
+            user object "marek.spacil"
+            user object "maria.kmetova"
+            user object "Maria.Melencova"
+            user object "maria.pauloova"
+            user object "marian.benczy"
+            user object "marian.bernat"
+            user object "marian.holka"
+            user object "marian.kralik"
+            user object "marian.lences"
+            user object "Marian.Toth"
+            user object "marianna.sandor"
+            user object "Mario.Lipiansky"
+            user object "martin.fintor"
+            user object "martin.zajicek"
+            user object "martina.formelova"
+            user object "Michaela.Forrova"
+            user object "michaela.pirselova"
+            user object "michaela.zuscakova"
+            user object "milan.klacansky"
+            user object "milan.rychtarik"
+            user object "milos.micik"
+            user object "milos.ponist"
+            user object "miloslav.dodok"
+            user object "miriam.cerna"
+            user object "miroslav.belan"
+            user object "miroslav.kanas"
+            user object "miroslav.kostal"
+            user object "miroslav.kozma"
+            user object "miroslav.molnar"
+            user object "miroslav.pavcir"
+            user object "Miroslav.Petrik"
+            user object "miroslav.szegeny"
+            user object "Monika.Vanova"
+            user object "nikolas.fabik"
+            user object "nikolas.homola"
+            user object "norbert.grof"
+            user object "Ondrej.Panik"
+            user object "oto.kovacik"
+            user object "Patrik.Kolencik"
+            user object "peter.benczy"
+            user object "peter.birdas"
+            user object "peter.fulier"
+            user object "peter.hraska"
+            user object "peter.ondrejkovic"
+            user object "peter.sandor"
+            user object "Peter.Svec"
+            user object "peter.toth"
+            user object "Petr.wohlmuth"
+            user object "Radka.Vanikova"
+            user object "radoslav.durco"
+            user object "radovan.hvozdik"
+            user object "radovan.miko"
+            user object "Ramona.Calomfirescu"
+            user object "renata.vasickova"
+            user object "richard.fekete"
+            user object "richard.gaal"
+            user object "robert.darnady"
+            user object "robert.karlubik"
+            user object "Robert.kubjatko"
+            user object "robert.stumpel"
+            user object "roberta.stredanska"
+            user object "roland.kiss"
+            user object "roman.bursak"
+            user object "roman.foltanovic"
+            user object "roman.karaka"
+            user object "romana.nemova"
+            user object "sona.mikulcova"
+            user object "stanislav.hlavaty"
+            user object "stanislav.vlcak"
+            user object "stefan.benko"
+            user object "stefan.janik"
+            user object "tatiana.sykorova"
+            user object "teodor.urban"
+            user object "tomas.vasut"
+            user object "Vasily.Mizyuk"
+            user object "viera.jungova"
+            user object "viera.kikelova"
+            user object "vladimir.kollar"
+            user object "vladimir.sirotek"
+            user object "vladimir.stahel"
+            user object "vladimir.szaraz"
+            user object "zdenek.hruby"
+            user object "zdenko.zelinka"
+            user object "zuzana.feketeova"
+            user object "zuzana.jarosova"
+            user object "zuzana.korytiakova"
+            user object "zuzana.zahradnikova" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote access OPTOSOFT sp. z o.o. (Wroclaw)" (REF_AaaGroRemotAccesOptos)
+        name (name) = Remote access OPTOSOFT sp. z o.o. (Wroclaw)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Michal.Biernat" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access IT Manufactory GmbH ( 94032 Passau)" (REF_AaaGroRemotAccesIt)
+        name (name) = Remote Access IT Manufactory GmbH ( 94032 Passau)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access StoneShield - Engineering (Portugal)" (REF_AaaGroStoneEnginPortu)
+        name (name) = Remote Access StoneShield - Engineering (Portugal)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Vitor.Santos" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access itelligence Dresden" (REF_AaaGroRemotAccesItell)
+        name (name) = Remote Access itelligence Dresden
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access CIS consulting GmbH" (REF_AaaGroRemotAccesCis)
+        name (name) = Remote Access CIS consulting GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "roy.sanjoy" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Centrul de inovatii si cunoastere in business AO (Orhei)" (REF_AaaGroRemotAccesCentr)
+        name (name) = Remote Access Centrul de inovatii si cunoastere in business AO (Orhei)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "remote access 4Soft GmbH (Munich)" (REF_AaaGroRemotAcces4soft)
+        name (name) = remote access 4Soft GmbH (Munich)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Constanze.Temmle"
+            user object "Ext.Igor.Milly"
+            user object "Ext.Lukas.Messer"
+            user object "Ext.Maria.Latysheva"
+            user object "Ext.Michael.Sinner"
+            user object "Ext.Michael.Steinbuc"
+            user object "Ext.Mustafa.Darabi"
+            user object "Ext.Philipp.Bielefel" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Nizhny Novogrod" (REF_AaaGroRemotAccesNizhn)
+        name (name) = Remote Access Nizhny Novogrod
+        group type (dynamic) = none
+        static members (members)
+            user object "Lina.Ershova"
+            user object "nat04zub"
+            user object "Tatyana.Fokina" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access P.P.H.U. ENIGMA Łukasz Kaczyński (Karczewko)" (REF_AaaGroRemotAccesPphu)
+        name (name) = Remote Access P.P.H.U. ENIGMA Łukasz Kaczyński (Karczewko)
+        group type (dynamic) = none
+        static members (members)
+            user object "lukasz.kaczynski" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Komax Deutschland GmbH (90449 Nürnberg)" (REF_AaaGroRemotAccesKomax)
+        name (name) = Remote Access Komax Deutschland GmbH (90449 Nürnberg)
+        group type (dynamic) = none
+        static members (members)
+            user object "ext.Andreas.Bitzi"
+            user object "Ext.Florian.Schuepfer"
+            user object "ext.Hans.Buholzer"
+            user object "ext.Simon.Birrer" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote access BAYOM S.a.r.l (TANGIER)" (REF_AaaGroRemotAccesBayom)
+        name (name) = Remote access BAYOM S.a.r.l (TANGIER)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Abdelkrim.Bahji" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Eurostandard Broker Orhei" (REF_AaaGroRemotAccesEuros)
+        name (name) = Remote Access Eurostandard Broker Orhei
+        group type (dynamic) = none
+        static members (members)
+            user object "igor.turcanu"
+            user object "natalia.ili" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "HelpDesk" (REF_AaaGroHelpdesk)
+        name (name) = HelpDesk
+        group type (dynamic) = none
+        static members (members)
+            user object "chaouki.tlibi" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL" (REF_LkHAKEopjc)
+        name (name) = Remote_Access_SSL
+        group type (dynamic) = none
+        static members (members)
+            user object "Achref.Jendoubi"
+            user object "agata.kotyrba"
+            user object "agnieszka.krygier"
+            user object "Ahmed.Bouderbala"
+            user object "Ahmed.Oueslati"
+            user object "ahmed.rigar"
+            user object "akiko.nakagawa"
+            user object "Ala.Ghaoui"
+            user object "ale04dem"
+            user object "alesandro.files"
+            user object "Alexander.Bock"
+            user object "alexander.churkin"
+            user object "alexander.moor"
+            user object "alexander.nass"
+            user object "Alexander.Reichert"
+            user object "alexander.semykin"
+            user object "alexandru.mitric"
+            user object "Alexej.Hildebrandt"
+            user object "Alfonso.Valencia"
+            user object "Ali.Mrad"
+            user object "alper.oezguer"
+            user object "and09sha"
+            user object "andoni.andueza"
+            user object "andre.cimander"
+            user object "andrea.grussendorf"
+            user object "andreas.kaltenbach"
+            user object "andreas.koeppe"
+            user object "andreas.laessig"
+            user object "andreas.linde"
+            user object "andrei.belea"
+            user object "Andrei.Picu"
+            user object "Andrii.Filatov"
+            user object "Anis.Boukhari"
+            user object "anja.mohwinkel"
+            user object "Anja.Rother"
+            user object "anja.seidler"
+            user object "Anja.Voelker"
+            user object "Anna.Jahnz"
+            user object "Anna.Tschirka"
+            user object "Annika.Stein"
+            user object "antje.ahnee"
+            user object "Antje.Krehmer"
+            user object "Antonio.Fernandez"
+            user object "ariane.wulkow"
+            user object "Arina.Polyanska"
+            user object "Armin.Aunkofer"
+            user object "Arnold.Molnar"
+            user object "Astrid.Matschuk"
+            user object "ate01fer"
+            user object "axe05ner"
+            user object "axel.becker"
+            user object "Azad.Demir"
+            user object "bartosz.giantsios"
+            user object "Bastian.Demaj"
+            user object "Beate.Melzian"
+            user object "Belete.Aytenew"
+            user object "ben.schulz"
+            user object "benjamin.istvancserh"
+            user object "bernadette.borkowski"
+            user object "bernd.buenger"
+            user object "Bernd.Vanderheyden"
+            user object "bettina.wagner"
+            user object "bianca.fischer-ander"
+            user object "bianca.strejariu"
+            user object "blu07mbh"
+            user object "boh08kom"
+            user object "brigitte.warda"
+            user object "burkhard.beihl"
+            user object "Burkhard.Dettmer"
+            user object "Carlos.Munoz1"
+            user object "carmela.arpaia"
+            user object "carolyn.hoernich"
+            user object "cedric.rode"
+            user object "chantal.kaelin"
+            user object "chaouki.tlibi"
+            user object "charlene.hartmann"
+            user object "Chris.Dahlig"
+            user object "Christian Wehner"
+            user object "christian.arnert"
+            user object "christian.haake"
+            user object "Christian.Haberl"
+            user object "christian.haertel"
+            user object "Christian.Woll"
+            user object "christin.deppe"
+            user object "christina.ziebart"
+            user object "christof.kolb"
+            user object "christoph.krueger"
+            user object "claudia.wiese"
+            user object "Claus.Nottbrock"
+            user object "cor07sch"
+            user object "Corinna.Soria"
+            user object "cornelia.bluemke"
+            user object "Cris.Coyoka"
+            user object "Cristina.Bermejo"
+            user object "Csaba.Mate"
+            user object "d.tacke-stolze"
+            user object "Damian.Maslowski"
+            user object "Dana.Druecke"
+            user object "daniel.huebner"
+            user object "daniel.littmann"
+            user object "daniel.warnke"
+            user object "Daniela.Dejl-andree"
+            user object "daniela.gude"
+            user object "david.alagna"
+            user object "david.herzog"
+            user object "Dawid.Minta"
+            user object "Denise.Bock"
+            user object "Dennis.Schmiedeberg"
+            user object "Deyan.Srebrev"
+            user object "Dhamir.Hammi"
+            user object "diana.heldsdoerfer"
+            user object "Diana.Turowska"
+            user object "dietmar.andresen"
+            user object "dietmar.michaelis"
+            user object "dietmar.winkelmann"
+            user object "Dimitrij.Latik"
+            user object "Dirk.Loesche"
+            user object "dkamaletdinov"
+            user object "dominiak"
+            user object "Dominik.Ruhnke"
+            user object "doris.kotrc"
+            user object "dorothea.neff"
+            user object "eduard.bertram"
+            user object "elena.dencheva"
+            user object "elghoribi"
+            user object "Elina.Reisich"
+            user object "elina.reschke"
+            user object "Eliyer.Orea"
+            user object "elvira.frey"
+            user object "Elzbieta.Remiszewska"
+            user object "Eugen.Kirchkessler"
+            user object "Eva-maria.Otte"
+            user object "eva.schichta"
+            user object "Evelyn.Groschopp"
+            user object "evg07ser"
+            user object "Evi.Bauer"
+            user object "ewa.cichonska"
+            user object "Ext.Alexander.Bittner"
+            user object "Ext.Frank.Schneider"
+            user object "Ext.Ioan.Zahorecz"
+            user object "Ext.Joerg.Janssen"
+            user object "Ext.Marco.Tobias"
+            user object "Ext.Marius.Pripas"
+            user object "ext.sachinreddy.govi"
+            user object "Ext.Ulf.Schmalfuss"
+            user object "Fabian.Hartrampf"
+            user object "felix.barth"
+            user object "Fernando.Olivares"
+            user object "flavius.dilion"
+            user object "Florian.Krumbholz"
+            user object "Florian.Rodina"
+            user object "florian.sander"
+            user object "frank.koehler"
+            user object "frank.neubert"
+            user object "frank.scharf"
+            user object "frank.vogel"
+            user object "Franzis.Walther"
+            user object "friederike.mueller"
+            user object "froydis.somdalen"
+            user object "fujiko.spengler"
+            user object "Gabriel.Cutas"
+            user object "Georgica.Craciun"
+            user object "Gergana.Georgieva"
+            user object "Gheorghe.Diaconu"
+            user object "gheorghe.luca"
+            user object "goekce.kardas"
+            user object "goetz.seibold"
+            user object "Govinda.Gandholi"
+            user object "Gulay.Tatlidil"
+            user object "gulnara.kanceva"
+            user object "h.ikehara-schmitt"
+            user object "h.kretschmann"
+            user object "Hajer.Krit"
+            user object "hans-joerg.ehlers"
+            user object "hans.miehling"
+            user object "Hans.Thyssen"
+            user object "Hatice.Bulut"
+            user object "Heike.Mitchell"
+            user object "heike.zerneke"
+            user object "Heiko.Franke"
+            user object "henrik.bangemann"
+            user object "Holger.Regenhardt"
+            user object "Houcine.Terzi"
+            user object "Hugh.Chan"
+            user object "hugo.navarro"
+            user object "Huseyin.Ozturk"
+            user object "Igor.Kogut"
+            user object "Imen.Bouterraa"
+            user object "Ina.Krieger"
+            user object "ines.taeger"
+            user object "inessa.tomm"
+            user object "inna.mashek"
+            user object "ion.ardelean"
+            user object "ion.staver"
+            user object "Iryna.Dietz"
+            user object "isabelle.hinz"
+            user object "Itzel.Marindepaz"
+            user object "Ivan.Kavrakov"
+            user object "iveta.jankovicova"
+            user object "jakub.niedaszkowski"
+            user object "jan.bade"
+            user object "jan.doskar"
+            user object "Jannik.Bender"
+            user object "Jannik.Scheike"
+            user object "Javier.Herraiz"
+            user object "jeannette.strohmeyer"
+            user object "jelena.schneider"
+            user object "jens.klose"
+            user object "jens.mewes"
+            user object "jens.meyer"
+            user object "jens.ruessmann"
+            user object "jir10pok"
+            user object "jiri.snydr"
+            user object "jitka.martinova"
+            user object "Joe-nian.Khor"
+            user object "Joerg.Buechting"
+            user object "Joerg.Wendel"
+            user object "johannes.erdmann"
+            user object "jose.cachairo"
+            user object "Jose.Lara"
+            user object "josef.giblo"
+            user object "juergen.bergmann"
+            user object "juergen.steert"
+            user object "juergen.uhlenhaut"
+            user object "Julia.Hinz"
+            user object "Julia.Lietzmann"
+            user object "julian.hiemenz"
+            user object "juraj.beres"
+            user object "Justin.Masche"
+            user object "kai.kasprzak"
+            user object "kameliya.vatova"
+            user object "kamila.kohlova"
+            user object "Kamila.Lecova"
+            user object "karl.koenig"
+            user object "Karsten.Bitterwolf"
+            user object "Karsten.Dieckmann"
+            user object "kat11szi"
+            user object "katerina.pislova"
+            user object "katharina.albrot"
+            user object "katharina.duda"
+            user object "Katharina.Heinrich"
+            user object "katharina.petker"
+            user object "katharina.soltysik"
+            user object "katharina.titz-engfer"
+            user object "Katja.Mondry"
+            user object "katrin.krumbholz"
+            user object "katrin.mania"
+            user object "Katrin.Straske"
+            user object "Kazumitsu.Fukada"
+            user object "kazuya.kasai"
+            user object "Kerstin.Reinsch"
+            user object "Khemaies.Attig"
+            user object "Kim.Goedeke"
+            user object "Kira.Gumprecht"
+            user object "Krisztina.Arday"
+            user object "Lara.Frostdorfer"
+            user object "Lara.Metzig"
+            user object "Lars.Zubke"
+            user object "larysa.fisher"
+            user object "Laura.Baeumann"
+            user object "lea.grabs-baetge"
+            user object "lena.reuner"
+            user object "Leonhard.Schloesser"
+            user object "Lilia.Firus"
+            user object "liliya.petryk"
+            user object "Lina.Fischer"
+            user object "Lubos.Kolumpek"
+            user object "lucas.huebscher"
+            user object "lucyna.kowalewska"
+            user object "Ludger.Wendt"
+            user object "Luis.Beermann"
+            user object "Lukas.Schmidt"
+            user object "Lukasz.Turowski"
+            user object "Lutz.Konopka"
+            user object "Mahmoud.Saanouni"
+            user object "Maic.Mueller"
+            user object "Maja.Ruckert"
+            user object "Malte.Neumann"
+            user object "malte.schroeder"
+            user object "Manuel.Kueffner"
+            user object "manuela.fraustein"
+            user object "manuela.zischke-krug"
+            user object "mar04nov"
+            user object "marc.feuerstack"
+            user object "Marco.Stolte"
+            user object "marcus.armbruster"
+            user object "Marcus.Vollnhals"
+            user object "mareike.barghorn"
+            user object "mareike.tentlewitz"
+            user object "maren.schlehahn"
+            user object "margarete.ruester"
+            user object "Marie.Neuzilova"
+            user object "marina.horch"
+            user object "mario.dankert"
+            user object "marion.klier"
+            user object "Marion.Ottowitz"
+            user object "Marius.Ujica"
+            user object "Mariyana.Yovcheva"
+            user object "markus.behn"
+            user object "Marta.Oteiza"
+            user object "martin.buchmann"
+            user object "Martina.Schmiedl"
+            user object "marvin.malinowski"
+            user object "mateusz.mizgalski"
+            user object "Mathias.Finndorf"
+            user object "matthias.dickel"
+            user object "matthias.menzel"
+            user object "mattias.klebs"
+            user object "maureen.henke"
+            user object "Max.Schaper"
+            user object "Maxim.Cortac"
+            user object "maxim.kraus"
+            user object "maximilian.krieghoff"
+            user object "meike.hambrock"
+            user object "Melanie.Vandergeest"
+            user object "Meriam.Gdoura"
+            user object "Merit.Palokaj"
+            user object "Mesut.Yuksel"
+            user object "Metin.Elbeli"
+            user object "michael.brenner"
+            user object "michael.huebner"
+            user object "Michael.Kastner"
+            user object "michael.merta"
+            user object "michael.specht"
+            user object "michael.stahl"
+            user object "michael.wiesner"
+            user object "Milena.Foteva"
+            user object "mirco.pilz"
+            user object "miriam.luther"
+            user object "miriam.markward"
+            user object "Miroslav.Kolev"
+            user object "mischa.pompetzki"
+            user object "mohamed.elayeb"
+            user object "monika.borikova"
+            user object "mustafa.saribas"
+            user object "Nabil.Boussetta"
+            user object "Nader.Hammami"
+            user object "nadine.finndorf"
+            user object "nadine.janeck"
+            user object "Nadiya.Kukharuk"
+            user object "nadja.ficht"
+            user object "nadja.gerblich"
+            user object "Naiara.Martinez"
+            user object "Natalia.Kraus"
+            user object "natalie.becker"
+            user object "natalie.klopp"
+            user object "Natalya.Yatsenko"
+            user object "Nawress.Essassi"
+            user object "nelly.lang"
+            user object "Nick.Neddermeier"
+            user object "Nicole.Loehr"
+            user object "nicole.plaum"
+            user object "Niklas.Gutsch"
+            user object "Nikolay.Donchev"
+            user object "nina.frostdorfer"
+            user object "Nora.Bailey"
+            user object "nur08ram"
+            user object "Nuri.Ramadan"
+            user object "oana.stefanica"
+            user object "Olaf.Arnold"
+            user object "Oleg.Ermisch"
+            user object "oleg.lehmann"
+            user object "oleksandr.lysyy"
+            user object "oriol.garcia"
+            user object "ozan.suarik"
+            user object "paolo.cavallaro"
+            user object "pascal.fabig"
+            user object "patricia.kelm"
+            user object "Patrick.Beyer"
+            user object "patrick.wiecki"
+            user object "pau02wac"
+            user object "Pavlina.Frydrychova"
+            user object "peter.klinkmann"
+            user object "peter.ostermann"
+            user object "petr.netrval"
+            user object "Petra.Lorenzani"
+            user object "phillipp.kull"
+            user object "pio04dzi"
+            user object "premysl.tvrznik"
+            user object "przemyslaw.fabijancz"
+            user object "Rabin.Sharma"
+            user object "radka.bahchevanova"
+            user object "radostin.gavrilov"
+            user object "rafal.krawczyk"
+            user object "ramona.halbeisen"
+            user object "regina.niedringhaus"
+            user object "regina.schlegel"
+            user object "rene.schulze"
+            user object "Rita.Linke"
+            user object "rita.ziegler"
+            user object "robert.sroka"
+            user object "robert.wendrodt"
+            user object "robin.fuchs"
+            user object "Rochdi.Fezai"
+            user object "roland.hofmann"
+            user object "Roland.Menzel"
+            user object "roman.demchuk"
+            user object "Ruben.Ortega"
+            user object "ruediger.boege"
+            user object "ruediger.rensch"
+            user object "Rui.Domingues"
+            user object "Ryo.Suenaga"
+            user object "Ryohei.Kakami"
+            user object "S.Damodaran"
+            user object "said.elJabaly"
+            user object "Saioa.Martinez"
+            user object "sanchez"
+            user object "Sara.Marengo"
+            user object "Sarah.Probst"
+            user object "sas08pre"
+            user object "Scarlett.Lieb"
+            user object "Sebastian.Amft"
+            user object "Sebastian.Heyden"
+            user object "Sebastian.Reissig"
+            user object "Sebastian.Stahl"
+            user object "Sergej.Streck"
+            user object "Sergio.Cobos"
+            user object "sergiu.hulber"
+            user object "sergiu.mirza"
+            user object "severine.thaesler"
+            user object "Shasha.Yang"
+            user object "Silke.Kayser"
+            user object "Silviya.Gencheva"
+            user object "Simon.Acker1"
+            user object "simon.fricke"
+            user object "simone.berghorn"
+            user object "Skander.Gharbi"
+            user object "Sofiia.Kotsur"
+            user object "soichiro.namba"
+            user object "Sonia.Pardo"
+            user object "Sonya.Popova"
+            user object "Souheil.Kahlaoui"
+            user object "stefan.bernhauser"
+            user object "Stefan.Bogunov"
+            user object "stefan.hedemann"
+            user object "stefan.holland"
+            user object "Stefan.Kremer"
+            user object "stefanie.schlueter"
+            user object "steffi.springer"
+            user object "stephanie.kreutzer"
+            user object "Stephanie.Ofosu"
+            user object "Stephanie.Sukop"
+            user object "stina.wallis"
+            user object "susanne.adler"
+            user object "Susanne.Kreitmeier"
+            user object "sven-uwe.niemann"
+            user object "Sven.Zimmermann"
+            user object "Svitlana.Tymoshenko"
+            user object "Sylvie.Gueffroy"
+            user object "takahisa.hamachi"
+            user object "Takao.Nagase"
+            user object "tania.woeckener"
+            user object "tanja.werner"
+            user object "Tatjana.Oberhoeller"
+            user object "tatsuya.fukumoto"
+            user object "Tatsuya.Iwata"
+            user object "testuser0001"
+            user object "thomas.behrens2"
+            user object "thomas.benthues"
+            user object "Thomas.Diessel"
+            user object "Thomas.Ebert"
+            user object "thomas.gabler"
+            user object "Thomas.Kost"
+            user object "Thomas.Lindner"
+            user object "Thomas.Meyer"
+            user object "Thomas.Schwarzrock"
+            user object "thomas.von.rahden"
+            user object "thorsten.beese"
+            user object "Tilo.Menzel"
+            user object "Tim.Kancev"
+            user object "tim.lange"
+            user object "timo.lotz"
+            user object "Timo.Spandau"
+            user object "tobias.huebner"
+            user object "tor01mut"
+            user object "torsten.lange"
+            user object "Torsten.Wrobel"
+            user object "Tristan.Ryll"
+            user object "udo.seiffert"
+            user object "ulrike.wallis"
+            user object "undine.lange"
+            user object "userusertest"
+            user object "uwe02mie"
+            user object "Valtin.Ismajli"
+            user object "ventsislav.mironov"
+            user object "veronika.judinova"
+            user object "viktor.katkow"
+            user object "Viktor.Moser"
+            user object "viktor.reschke"
+            user object "Viktoriya.Mizyuk"
+            user object "Vladyslav.Savelyev"
+            user object "volodymyr.tymoshenko"
+            user object "Wael.Saidi"
+            user object "wal01abd"
+            user object "Waldemar.Lang"
+            user object "werner.conrad"
+            user object "Werner.Lederer"
+            user object "Wilfried.Weyrauch"
+            user object "wilhelm.fink"
+            user object "wojciech.jasinowski"
+            user object "Wolfgang.Nickel"
+            user object "xenia.grundmann"
+            user object "yaroslav.yastrebov"
+            user object "yasin.tiryaki"
+            user object "yilmaz.duran"
+            user object "Yosuke.Iwase"
+            user object "yuji.nakura"
+            user object "Yuki.Matoba"
+            user object "Yuliia.Sirant"
+            user object "yusuke.morikawa"
+            user object "yvonne.schmidt"
+            user object "zongjie.chen" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Wysnsys Tunisie" (REF_AaaGroRemotAccesWysns)
+        name (name) = Remote Access Wysnsys Tunisie
+        group type (dynamic) = none
+        static members (members)
+            user object "houssemeddine"
+            user object "mouna.elmanaa" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_Inetum_Maroc" (REF_AaaGroRemoteacce7)
+        name (name) = Remote_Access_Inetum_Maroc
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Inetum.Maroc" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Besto.SK (Kosice)" (REF_AaaGroRemotAccesBesto)
+        name (name) = Remote Access Besto.SK (Kosice)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Pavol.Beres" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "SUM SSO Auditor Users" (REF_AaaGroSumSsoAudit)
+        name (name) = SUM SSO Auditor Users
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "CIT-SC_LN" (REF_AaaGroCitscln)
+        name (name) = CIT-SC_LN
+        group type (dynamic) = none
+        static members (members)
+            user object "and08wol"
+            user object "kkociolek"
+            user object "mar09roc"
+            user object "mir03gor"
+            user object "test0200"
+            user object "zak07oua" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Data Migration Solutions (DMI) AG (Kreuzlingen)" (REF_AaaGroRemotAccesData)
+        name (name) = Remote Access Data Migration Solutions (DMI) AG (Kreuzlingen)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Baiker.Thierry"
+            user object "Ext.Kuhlmann.Robert"
+            user object "Ext.Menzer.Johannes"
+            user object "Ext.Morlang.Roman" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_Stm" (REF_AaaGroRemoteacce8)
+        name (name) = Remote_Access_SSL_Stm
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Stm.Stm" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_Moldavia" (REF_AaaGroRemoteacce)
+        name (name) = Remote_Access_SSL_Moldavia
+        group type (dynamic) = none
+        static members (members)
+            user object "adelina.popovici"
+            user object "adrian.leahu"
+            user object "ala.bodiul"
+            user object "ala.savin"
+            user object "alexandr.chicu"
+            user object "alexandra.cernean"
+            user object "alexandru.bondari"
+            user object "alexandru.gheorghe.sirbu"
+            user object "alexandru.lisnic"
+            user object "alexandru.serebrian"
+            user object "alexandru.tarna"
+            user object "alexandru.virlan"
+            user object "alexei.alexandrov"
+            user object "alexei.butucel"
+            user object "alexei.colobov"
+            user object "alexei.marco"
+            user object "alina.baxan"
+            user object "ana.druta"
+            user object "ana.jomiru"
+            user object "anatolie.volcu"
+            user object "andrei.casian"
+            user object "andrei.reul"
+            user object "Andrei.Tighinean"
+            user object "anna.paszkiewicz"
+            user object "anton.ostapenco"
+            user object "Catalin.Corcodel"
+            user object "constantin.dvornic"
+            user object "cristian.bagrinovsch"
+            user object "cristian.cucu"
+            user object "cristina.chirilovici"
+            user object "cristina.colesnic"
+            user object "Cristina.Lozan"
+            user object "Cristina.Popovici"
+            user object "dana.pretuleac"
+            user object "daniela.caruta"
+            user object "daniela.nichita"
+            user object "denis.gasper"
+            user object "denis.hristian"
+            user object "dmitrii.fadeev"
+            user object "Doina.Satcanova"
+            user object "dorin.railean"
+            user object "dorina.ungureanu"
+            user object "Dumitrita.Padure"
+            user object "dumitru.godoroja"
+            user object "dumitru.grinciuc"
+            user object "dumitru.neburac"
+            user object "elena.calmis"
+            user object "elena.cebotari"
+            user object "elena.colesnic"
+            user object "elena.delijuc"
+            user object "eudochia.bulat"
+            user object "Eugenia.Railean"
+            user object "Eugeniu.Gavrisciuc"
+            user object "gabriela.deleu"
+            user object "gheorghe.raileanu"
+            user object "gheorghe.voloh"
+            user object "Igor.Corman"
+            user object "ina.gritco"
+            user object "ion.barbulat"
+            user object "ion.braga"
+            user object "ion.godoroja"
+            user object "ion.mocan"
+            user object "ion.olednic"
+            user object "ion.pinzari"
+            user object "ion.severin"
+            user object "irina.dormenco"
+            user object "irina.grigor"
+            user object "iulia.barbei"
+            user object "iulian.rusnac"
+            user object "Ivan.Tropchin"
+            user object "lilia.postolachi"
+            user object "liliana.bordian"
+            user object "liliana.josanu"
+            user object "Lina.Guja"
+            user object "ludmila.topala"
+            user object "marc.muntean"
+            user object "Marcel.Dogoter"
+            user object "marcela.mudrea"
+            user object "Marcela.Rotaru"
+            user object "margarita.tricolici"
+            user object "maria.bogdanovici"
+            user object "maria.brijataia"
+            user object "maria.chetrari"
+            user object "Mariana.Staric"
+            user object "Marina.Varlan"
+            user object "marius.cat"
+            user object "maxim.goncear"
+            user object "maxim.stefirta"
+            user object "mihail.berzan"
+            user object "Mihail.Cerececea"
+            user object "mihail.sargarovschi"
+            user object "mihail.singerean"
+            user object "natalia.apostol"
+            user object "natalia.buhaniuc"
+            user object "natalia.dubniuc"
+            user object "natalia.gritco"
+            user object "natalia.griza"
+            user object "natalia.griza1"
+            user object "natalia.popa"
+            user object "nicolae.pruteanu"
+            user object "nina.ungureanu"
+            user object "octavian.croitoru"
+            user object "oleg.sorocolet"
+            user object "olga.adomnita"
+            user object "olga.gafton"
+            user object "olga.pinzari"
+            user object "pavel.lipcan"
+            user object "petru.garam"
+            user object "raisa.rusu"
+            user object "rodica.dombrovschi"
+            user object "roman.zaitev"
+            user object "sami.belkhiria"
+            user object "serghei.marco"
+            user object "serghei.vilea"
+            user object "Sergiu.Alexeev"
+            user object "sergiu.gogu"
+            user object "Sergiu.Gojinetchi"
+            user object "sergiu.mirza"
+            user object "Sergiu.pislaru"
+            user object "sergiu.velcu"
+            user object "silvia.vartic"
+            user object "stanislav.socolovschii"
+            user object "Stratu.Andrei"
+            user object "tatiana.dascal"
+            user object "Tatiana.Duminica"
+            user object "tudor.rosca"
+            user object "vadim.railean"
+            user object "vadim.vasilescu"
+            user object "Valeria.Rebeja"
+            user object "valeriu.baranetchii"
+            user object "Vasile.Muntean"
+            user object "vasile.sorocean"
+            user object "victor.garabajiu"
+            user object "victor.nani"
+            user object "victoria.gradinaru"
+            user object "victoria.magal"
+            user object "Victoria.Matcovschi"
+            user object "Victoria.Sorocovici"
+            user object "viorica.costin"
+            user object "vitalie.prosechin"
+            user object "vitalii.topor"
+            user object "vlad.nani"
+            user object "Vladimir.Gaina"
+            user object "vladimir.lisnic"
+            user object "vladimir.tacu"
+            user object "vladislav.malic" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Prognis Gmbh (Nuernberg)" (REF_AaaGroPrognGmbhNuern)
+        name (name) = Prognis Gmbh (Nuernberg)
+        group type (dynamic) = none
+        static members (members)
+            user object "dirk.schittko" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access LLC "KAPELOU" (Ternopil)" (REF_AaaGroRemotAccesLlc2)
+        name (name) = Remote Access LLC "KAPELOU" (Ternopil)
+        group type (dynamic) = none
+        static members (members)
+            user object "oleksandr.truba" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Test SYSTEM (Gorzow)" (REF_AaaGroTestSysteGorzo)
+        name (name) = Test SYSTEM (Gorzow)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Jaroslaw.Granat"
+            user object "pawel.goluda" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Test" (REF_AaaGroRemotAccesTest)
+        name (name) = Remote Access Test
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_UKRAINE_CONIM" (REF_AaaGroRemoteacce3)
+        name (name) = Remote_Access_SSL_UKRAINE_CONIM
+        group type (dynamic) = none
+        static members (members)
+            user object "nataliia.oprits" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Virtual Integrated Analytics Solutions Mexico" (REF_AaaGroRemotAccesVirtu)
+        name (name) = Remote Access Virtual Integrated Analytics Solutions Mexico
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Jonathan.Hernandez" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Bertrandt Ingenieurbüro GmbH (Gaimersheim)" (REF_AaaGroRemotAccesBertr)
+        name (name) = Remote Access Bertrandt Ingenieurbüro GmbH (Gaimersheim)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Birgit.Stemmer"
+            user object "Ext.Joachim.Bartsch"
+            user object "Ext.Mahmoud.Saanouni"
+            user object "Ext.Vagish.Venkatara" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SAP_SE" (REF_AaaGroRemoteacce6)
+        name (name) = Remote_Access_SAP_SE
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Alexander.Wegner"
+            user object "Ext.Alexandru.Manole"
+            user object "Ext.Ana.Barros"
+            user object "Ext.Ana.Stefanescu"
+            user object "Ext.Andreas.Kellerer"
+            user object "Ext.Andreas.Rahe"
+            user object "Ext.Anelis.Danila"
+            user object "Ext.Angela.Ludwig"
+            user object "Ext.Annuschka.Korn"
+            user object "Ext.Berndt.Kruppa"
+            user object "Ext.Blanka.Holubova"
+            user object "Ext.Boris.Kopp"
+            user object "Ext.Carlota.Ramos"
+            user object "Ext.Carsten.Loeher"
+            user object "Ext.Detlef.Storms"
+            user object "Ext.Dieter.Strutzenberger"
+            user object "Ext.Dominic.Ludolph"
+            user object "Ext.Eric.Kalonda"
+            user object "Ext.Florian.Heiss"
+            user object "Ext.Frank.Renner"
+            user object "Ext.Hakan.Yilmaz"
+            user object "Ext.Holger.Lokstaedt"
+            user object "Ext.Ismail.Vurel"
+            user object "Ext.Jan.Henseler"
+            user object "Ext.Janine.Schneider"
+            user object "Ext.Johannes.Fischer"
+            user object "Ext.Kerstin.Blankenburg"
+            user object "Ext.Le.Wan"
+            user object "Ext.Lisa.Heim"
+            user object "Ext.Manuel.Steiner"
+            user object "Ext.Martin.Schneider"
+            user object "Ext.Martin.Zuerker"
+            user object "Ext.Michael.Wuerzburger"
+            user object "Ext.Naveen.Chamala"
+            user object "Ext.Paul.Gebel"
+            user object "Ext.Pilar.Villalta"
+            user object "Ext.Rebecca.Kube"
+            user object "Ext.Sarah.Leu"
+            user object "Ext.Sebastian.Kestler"
+            user object "Ext.Sonja.Skalnik"
+            user object "Ext.Stella.Kariofillis"
+            user object "Ext.Stephan.Arendt"
+            user object "Ext.Stephan.Kerber"
+            user object "Ext.Tabea.Machtel"
+            user object "Ext.Tanja.Ritter"
+            user object "Ext.Thomas.Schneider" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Endigo sp. z o.o" (REF_AaaGroRemotAccesEndig)
+        name (name) = Remote Access Endigo sp. z o.o
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Dacher Systems GmbH (Berlin)" (REF_AaaGroRemotAccesDache)
+        name (name) = Remote Access Dacher Systems GmbH (Berlin)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_China" (REF_jVmSYFIinD)
+        name (name) = Remote_Access_SSL_China
+        group type (dynamic) = none
+        static members (members)
+            user object "chu09pen"
+            user object "jie09yin"
+            user object "qia09zhu" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "CIT_TN" (REF_AaaGroCittn)
+        name (name) = CIT_TN
+        group type (dynamic) = none
+        static members (members)
+            user object "Skander.Gharbi" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Ates (Karnobat)" (REF_AaaGroRemotAccesAtes)
+        name (name) = Remote Access Ates (Karnobat)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Ata.Nik"
+            user object "Ext.Atanas.Nikolov"
+            user object "Ext.Danail.Vasilev"
+            user object "Ext.Hasan.Dulger"
+            user object "Ext.Nedzhmetin.Kandz"
+            user object "Ext.Nikoleta.Dimitrova"
+            user object "Ext.Zohre.Mihaylova" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Materna Information & Communications SE (Dortmund)" (REF_AaaGroRemotAccesMater)
+        name (name) = Remote Access Materna Information & Communications SE (Dortmund)
+        group type (dynamic) = none
+        static members (members)
+            user object "philipp.huonker"
+            user object "tobias.buehl"
+            user object "uwe.denskat" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Computer Futures (30165 Hannover)" (REF_AaaGroCompuFutur30165)
+        name (name) = Computer Futures (30165 Hannover)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Soeren.Jentzsch" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Amadeus FiRe Personalvermittlung & Interim Management GmbH" (REF_AaaGroRemotAccesAmade)
+        name (name) = Remote Access Amadeus FiRe Personalvermittlung & Interim Management GmbH
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access HAYS AG (Hannover)" (REF_AaaGroRemotAccesHays)
+        name (name) = Remote Access HAYS AG (Hannover)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Johann.Haberstoc" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Optima (Tunisia)" (REF_AaaGroRemotAccesOptim)
+        name (name) = Remote Access Optima (Tunisia)
+        group type (dynamic) = none
+        static members (members)
+            user object "mohamed.beltaief" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "SuperAdmins" (REF_DefaultSuperAdminGroup)
+        name (name) = SuperAdmins
+        group type (dynamic) = none
+        static members (members)
+            user object "Achref.Jendoubi"
+            user object "admin"
+            user object "Ahmed.Oueslati"
+            user object "Ala.Ghaoui"
+            user object "bartosz.suchecki"
+            user object "chaouki.tlibi"
+            user object "fdzieniewicz"
+            user object "Imen.Bouterraa"
+            user object "knopik"
+            user object "maciej.radzio"
+            user object "maciej.zawadzki"
+            user object "Meriam.Gdoura"
+            user object "Nader.Hammami"
+            user object "Nawress.Essassi"
+            user object "Rochdi.Fezai"
+            user object "Skander.Gharbi"
+            user object "Souheil.Kahlaoui"
+            user object "Wael.Saidi" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "BG_MEZ_Remote_Access_Users" (REF_AaaGroBgmezremot)
+        name (name) = BG_MEZ_Remote_Access_Users
+        group type (dynamic) = none
+        static members (members)
+            user object "Anita.Petrova"
+            user object "asya.todorova"
+            user object "Boris.Lazarov"
+            user object "borislav.toshovski"
+            user object "boyanka.aleksandrova"
+            user object "burak.seyis"
+            user object "daniel.mihaylov"
+            user object "Daniela.Petkova"
+            user object "denislav.genov"
+            user object "des12pet"
+            user object "elena.valova"
+            user object "Emanuil.Manolov"
+            user object "Gabriela.Petrova"
+            user object "galin.konov"
+            user object "galina.todorova"
+            user object "genadi.shilov"
+            user object "ilonka.hristova"
+            user object "Iva.Krasteva"
+            user object "Ivan.Tasev"
+            user object "kalin.ivanov"
+            user object "katerina.kostova"
+            user object "leyla.iliyaz"
+            user object "lora.aleksandrova"
+            user object "margarita.vasileva"
+            user object "Maria.Dineva"
+            user object "marin.tsekov"
+            user object "mariya.petkova"
+            user object "maya.grigorova"
+            user object "mehmed.afuz"
+            user object "Milena.Tsvetkova"
+            user object "Mirela.Mihaylova"
+            user object "monika.ivanova"
+            user object "neli.tsenovska"
+            user object "nikola.hristov"
+            user object "Nikolay.Krastev"
+            user object "nina.markova"
+            user object "Nina.Petrova"
+            user object "Olimpia.Gavrilova"
+            user object "Pavlin.Peshkov"
+            user object "petya.petrova"
+            user object "rositsa.stoyanovska"
+            user object "sevdalina.netsova"
+            user object "Sidika.Inzhe"
+            user object "Silvia.Ilieva"
+            user object "silviya.boyanova"
+            user object "silviya.dimitrova"
+            user object "stela.ivanova"
+            user object "stoyan.stoyanov"
+            user object "teodor.krastev"
+            user object "tihomir.kolev"
+            user object "todor.marinov"
+            user object "Todor.Nikolov"
+            user object "tsvetan.tsenov"
+            user object "tsvetelin.marinov"
+            user object "tsvetoslav.ivanov"
+            user object "valentin.angelov"
+            user object "Valeriya.Mitsova"
+            user object "valya.ilieva"
+            user object "velislava.getova"
+            user object "ven14spi"
+            user object "vergil.vergilov"
+            user object "vesko.veskov"
+            user object "vita.doncheva"
+            user object "Vladimir.Penkovski"
+            user object "Vladimir.Popov"
+            user object "yohan.popov"
+            user object "zhaneta.hristova" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_Moldova_DAAC_Systems" (REF_AaaGroRemoteacce2)
+        name (name) = Remote_Access_SSL_Moldova_DAAC_Systems
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Cristina.Cristea"
+            user object "Ext.Gleb.Anisimov"
+            user object "Ext.Rosca.Radu"
+            user object "Ext.Sepelenco.Olga"
+            user object "Ext.Serghei.Curdoglo" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Moldova A PINTO BRASIL GROUP COMPANY (Guardizela)" (REF_AaaGroRemotAccesMoldo)
+        name (name) = Remote Access Moldova A PINTO BRASIL GROUP COMPANY (Guardizela)
+        group type (dynamic) = none
+        static members (members)
+            user object "fernando.silva" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_Germany_Protiviti_GmbH" (REF_AaaGroRemoteacce4)
+        name (name) = Remote_Access_SSL_Germany_Protiviti_GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "matthias.sturm" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote access Brainware Solutions GmbH (Orhei)" (REF_AaaGroBrainSolutGmbh)
+        name (name) = Remote access Brainware Solutions GmbH (Orhei)
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote SEI Antech Europe GmbH" (REF_AaaGroRemotSeiAntec)
+        name (name) = Remote SEI Antech Europe GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Ayaka.Taniguchi"
+            user object "wais.darwish" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Juan Carlos Sanchez Barradas CONSULTANT (Puebla)" (REF_AaaGroRemotAccesJuan)
+        name (name) = Remote Access Juan Carlos Sanchez Barradas CONSULTANT (Puebla)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Juan.Sanchez" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "REF_mohtJVekrp" (REF_mohtJVekrp)
+        name (name) = user group object "REF_mohtJVekrp"
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Active Directory Users" (REF_DefaultAdirectoryUserGroup)
+        name (name) = Active Directory Users
+        group type (dynamic) = directory_groups
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = adirectory
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access intecs data, s.r.o." (REF_AaaGroRemotAccesIntec)
+        name (name) = Remote Access intecs data, s.r.o.
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Jakub.Kmet"
+            user object "Ext.Lukas.Sejba"
+            user object "Ext.Martin.Drab"
+            user object "Ext.Zbynek.Sailer" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access LLC Voloshyn" (REF_AaaGroRemotAccesLlc)
+        name (name) = Remote Access LLC Voloshyn
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Maksym.Belyakov"
+            user object "Ext.Natalia.Mishina"
+            user object "Ext.Oleksandr.Shandruk"
+            user object "Ext.Shandruk.Alexand"
+            user object "Ext.Violetta.Andrusy"
+            user object "Ext.Yevhen.Kapushchak"
+            user object "serhii.burmistrov"
+            user object "Viktoriya.Dnes"
+            user object "vitalii.chernyk" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access QUALTEH Company" (REF_AaaGroRemotAccesQualt)
+        name (name) = Remote Access QUALTEH Company
+        group type (dynamic) = none
+        static members (members)
+            user object "ext.walter.konnerth" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Automatic Sp. z o. o. (Leszno)" (REF_AaaGroRemotAccesAutom)
+        name (name) = Remote Access Automatic Sp. z o. o. (Leszno)
+        group type (dynamic) = none
+        static members (members)
+            user object "adam.chudak" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Stoyan Valev (Bulgaria - KARNOBAT)" (REF_AaaGroRemotAccesStoya)
+        name (name) = Remote Access Stoyan Valev (Bulgaria - KARNOBAT)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Stoyan.Valev" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote_Access_SSL_Magdalena_Maciaszek" (REF_AaaGroRemoteacce9)
+        name (name) = Remote_Access_SSL_Magdalena_Maciaszek
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access IBM Slovensko (Bratislava" (REF_AaaGroRemotAccesIbm)
+        name (name) = Remote Access IBM Slovensko (Bratislava
+        group type (dynamic) = none
+        static members (members) = empty list
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access ADD Solution GmbH" (REF_AaaGroRemotAccesAdd)
+        name (name) = Remote Access ADD Solution GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Lars.Ludigkeit" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access Q-East Software SRL (Romania)" (REF_AaaGroRemotAccesSoftw)
+        name (name) = Remote Access Q-East Software SRL (Romania)
+        group type (dynamic) = none
+        static members (members)
+            user object "adrian.dumitrescu" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "WebAdmin ReadOnly" (REF_AaaGroWebadReado)
+        name (name) = WebAdmin ReadOnly
+        group type (dynamic) = none
+        static members (members)
+            user object "chaouki.tlibi" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote Access EDAG Engineering GmbH" (REF_AaaGroRemotAccesEdag)
+        name (name) = Remote Access EDAG Engineering GmbH
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Ioan.Zahorecz" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote access Sumitomo Wiring Systems" (REF_AaaGroRemotAccesSumit)
+        name (name) = Remote access Sumitomo Wiring Systems
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.hiroyuki.nakagawa" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+    user group object "Remote access EBIS Enterprise Demand and Supply Ltd (London)" (REF_AaaGroRemotAccesEbis)
+        name (name) = Remote access EBIS Enterprise Demand and Supply Ltd (London)
+        group type (dynamic) = none
+        static members (members)
+            user object "Ext.Deniz.Selen"
+            user object "Ext.Erdogan.Akkay"
+            user object "Ext.Fatih.Unal"
+            user object "Ext.Kerem.SimseK"
+            user object "Ext.Salih.Yildiz"
+            user object "Ext.Tekin.Celik" 
+        DN mask (ipsec_dn) = empty value
+        backend (backend_match) = none
+        eDirectory containers (edirectory_groups) = empty list
+        Active Directory groups (adirectory_groups) = empty list
+        LDAP attribute (ldap_attribute) = empty value
+        LDAP attribute value (ldap_attribute_value) = empty value
+back to the index
