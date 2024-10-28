@@ -75,7 +75,7 @@ int main() {
     char **array;
     int size;
     
-    read_file_to_array("lista", &array, &size);
+    read_file_to_array("ficha", &array, &size);
     
     // Free the allocated memory for the array
     for (int i = 0; i < size; i++) {
